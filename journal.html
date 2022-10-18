@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Recipe Box</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,400;10..100,500;10..100,600;10..100,700&family=Josefin+Slab:wght@400;500;600&family=Patrick+Hand+SC&family=Port+Lligat+Sans&family=Port+Lligat+Slab&family=Source+Serif+Pro:ital,wght@0,300;0,400;1,300;1,400&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+</head>
+
+<header>
+    <h1><a href="index.html" id="main-title-link">Recipe Box</a></h1>
+    <ul class="navigation">
+        <li><a href="index.html">cook</a></li>
+        <li><a href="journal.html">journal</a></li>
+        <li><a href="about.html">about</a></li>
+    </ul>
+</header>
+
+<body>
+    <div>
+        <div>
+            <div class="journal-content">
+                <div class="journal-calendar">
+                    <table>
+                        <caption>October 2022</caption>
+                        <tr id="calendar-heading">
+                            <th>Sun</th>
+                            <th>Mon</th>
+                            <th>Tues</th>
+                            <th>Wed</th>
+                            <th>Thurs</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                        </tr>
+                        <tr>
+                            <td id="empty"></td>
+                            <td id="empty"></td>
+                            <td id="empty"></td>
+                            <td id="empty"></td>
+                            <td id="empty"></td>
+                            <td id="empty"></td>
+                            <td><a href="#10-01-2022" class="calendar-link" id="calendar-10-01-2022">1</a></td>
+                        
+                        </tr>
+                        <tr>
+                            <td><a href="#10-02-2022" class="calendar-link">2</a></td>
+                            <td id="no-content">3</td>
+                            <td id="no-content">4</td>
+                            <td id="no-content">5</td>
+                            <td id="no-content">6</td>
+                            <td><a href="#10-07-2022" class="calendar-link">7</a></td>
+                            <td><a href="#10-08-2022" class="calendar-link">8</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#10-09-2022" class="calendar-link">9</a></td>
+                            <td id="no-content">10</td>
+                            <td id="no-content">11</td>
+                            <td id="no-content">12</td>
+                            <td id="no-content">13</td>
+                            <td id="no-content">14</td>
+                            <td><a href="#10-15-2022" class="calendar-link">15</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#10-16-2022" class="calendar-link">16</a></td>
+                            <td id="no-content">17</td>
+                            <td id="no-content">18</td>
+                            <td id="no-content">19</td>
+                            <td id="no-content">20</td>
+                            <td id="no-content">21</td>
+                            <td id="no-content">22</td>
+                        </tr>
+                        <tr>
+                            <td id="no-content">23</td>
+                            <td id="no-content">24</td>
+                            <td id="no-content">25</td>
+                            <td id="no-content">26</td>
+                            <td id="no-content">27</td>
+                            <td id="no-content">28</td>
+                            <td id="no-content">29</td>
+                        </tr>
+                        <tr>
+                            <td id="no-content">30</td>
+                            <td id="no-content">31</td>
+                            <td id="empty"></td>
+                            <td id="empty"></td>
+                            <td id="empty"></td>
+                            <td id="empty"></td>
+                            <td id="empty"></td>
+                        </tr>
+                    </table>
+                    <p id="calendar-note">click on day to jump to entry!</p>
+
+                </div>
+                <div class="journal-articles">
+                    <a id="10-16-2022"></a>
+                    <article>
+                        <h4>October 16th, 2022</h4>
+                        <h2>Rick Martinez's Mole</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/10-16-2022-mole.jpg">
+                            <img src="assets/10-16-2022-mole2.jpg">
+                            <img src="assets/10-16-2022-mole3.jpg">
+                        </div>
+                        <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. pellentesque maximus, mi iaculis fringilla interdum, ante elit fringilla lectus, vitae lacinia ex sem non erat. ut semper eu ligula eget vehicula. suspendisse potenti. vivamus lobortis nec massa et ultricies. nulla quis lacus non mi dapibus pretium id eget mi. cras semper vulputate tortor, sed condimentum est pellentesque vitae. aenean vitae magna id nisi imperdiet tempus.</p>
+                    </article>
+                    <a id="10-15-2022"></a>
+                    <article>
+                        <h4>October 15th, 2022</h4>
+                        <h2>Market Breakfast with Smoked Mussels</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/10-15-2022-mussels.jpg">
+                        </div>
+                        <p>Today, the market had these delicious smoked mussels. The fishmonger recommended having them with some scrambled eggs, so we got home and did just that. I also found my favorite tender mustard greens, which I dressed simply with some lemon juice and olive oil.</p>
+                    </article>
+                    <a id="10-09-2022"></a>
+                    <article>
+                        <h4>October 9th, 2022</h4>
+                        <h2>Brothy Veggies & Whole Fried Bass at <a href="https://www.falansai.com/">Falansai</a></h2>
+                        <div class="journal-gallery">
+                            <img src="assets/10-09-2022-falansai.jpg">
+                            <img src="assets/10-09-2022-falansai2.jpg">
+                        </div>
+                        <p>Suyoung and I, with our friends, maintain this massive collaborative Google Maps list with every single restaurant we want to try in the city- it currently features 134 restaurants and grows every week! It is meant to inspire us in those moments when we have been out and about all day and realize we're totally starving and have absolutely no idea where to eat. Because decision paralysis is real, and unfornately, so is bad food in NYC.</p>
+                        <p>Anyway, it finally came in handy today! We had been thrifting in Bushwick, and decided to visit Falansai (shout out to Shreya for saving it to the list) after discovering they had a whole fried fish on the menu. We are currently eating our way through every whole-fish-dish in the city- stay tuned for an official ranking. It made the cut! It was perfectly tender, served on top of a bed of rich creamy curry. The standout of the meal, however, was a simple dish of market vegetables served in their house pho broth. Oh my god, the broth was so decadent, and really hit the spot on a cold fall day. </p>
+                    </article>
+                    <!-- <hr class="article-divider">-->
+                    <a id="10-08-2022"></a>
+                    <article>
+                        <h4>October 8th, 2022</h4>
+                        <h2>The New York Times Food Festival!</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/10-08-2022-nyt.jpg">
+                            <img src="assets/10-08-2022-nyt2.jpg">
+                            <img src="assets/10-08-2022-nyt3.jpg">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus, mi iaculis fringilla interdum, ante elit fringilla lectus, vitae lacinia ex sem non erat. Ut semper eu ligula eget vehicula. Suspendisse potenti. Vivamus lobortis nec massa et ultricies. Nulla quis lacus non mi dapibus pretium id eget mi. Cras semper vulputate tortor, sed condimentum est pellentesque vitae. Aenean vitae magna id nisi imperdiet tempus. Praesent et eros nisl. Maecenas rutrum nisi venenatis dolor venenatis, nec blandit lectus feugiat. Nam congue mi sodales nisi vestibulum scelerisque.oday we did our usual Saturday morning farmer's market journey. Today's feature! Concord Grapes!!! Omg, they tasted like candy.</p>
+                    </article>
+                    <!-- <hr class="article-divider">-->
+                    <a id="10-07-2022"></a>
+                    <article>
+                        <h4>October 7th, 2022</h4>
+                        <h2>Nautral Wine, Foie Gras, and Escargot at <a href="https://www.cafepaulette.com/" target="_blank">Caf&eacute; Paulette</a></h2>
+                        <div class="journal-gallery">
+                            <img src="assets/10-07-2022-paulette1.jpg">
+                            <img src="assets/10-07-2022-paulette2.jpg">
+                            <img src="assets/10-07-2022-paulette3.jpg">
+                        </div>
+                        <p>My sister was in town this weekend so we celebrated with a truly decadent meal at our favorite restaurant, Caf&eacute; Paulette. We started with a bottle of natural ros&eacute; while we waited for our table to be ready. It was super salty and pretty dark, almost like a chilled red. Yummmm. For dinner, we shared  the escargot and foie gras special. For entr&eacute;es, I had the duck confit (cue the jokes about how I was eating an entire duck in one sitting), Suyoung had the ratatouille which was stuffed inside an entire tomato, and Jackie had my favorite, the uber pepper-y steak frites. Bon apetit!</p>
+                    </article>
+                    <!-- <hr class="article-divider">-->
+                    <article>
+                        <a id="10-02-2022"></a>
+                        <h5>October 2nd, 2022</h5>
+                        <h2>Rainy Days are for Braising</h2>
+                        <h4>Alison Roman's <a href="https://www.alisoneroman.com/recipes/tangy-braised-short-ribs" target="_blank">Tangy Braised Short Ribs</a></h4>
+                        <div class="journal-gallery">
+                            <img src="assets/10-02-2022-braise-broth.jpg">
+                            <img src="assets/10-02-2022-braise-threehour.jpg">
+                            <img src="assets/10-02-2022-braise-finished.jpg">
+                            <img src="assets/10-02-2022-braise-plate.jpg">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus, mi iaculis fringilla interdum, ante elit fringilla lectus, vitae lacinia ex sem non erat. Ut semper eu ligula eget vehicula. Suspendisse potenti. Vivamus lobortis nec massa et ultricies. Nulla quis lacus non mi dapibus pretium id eget mi. Cras semper vulputate tortor, sed condimentum est pellentesque vitae. Aenean vitae magna id nisi imperdiet tempus. Praesent et eros nisl. Maecenas rutrum nisi venenatis dolor venenatis, nec blandit lectus feugiat. Nam congue mi sodales nisi vestibulum scelerisque.oday we did our usual Saturday morning farmer's market journey. Today's feature! Concord Grapes!!! Omg, they tasted like candy.</p>
+                    </article>
+                    <!-- <hr class="article-divider">-->
+                    <article>
+                        <a id="10-01-2022"></a>
+                        <h4>October 1st, 2022</h4>
+                        <h2>Breakfast via the Fort Greene Farmer's Market</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/10-01-2022-grapes.jpg">
+                            <img src="assets/10-01-2022-beets.jpg">
+                            <img src="assets/10-01-2022-breakfast.jpg">
+                        </div>
+                        <p>Today we braced the rain and followed our usual Saturday morning routine of venturing to the Fort Greene farmers market. The highlight: these beautiful Concord grapes! Holy moly, they tasted just like grape candy, but with a nice tart finish. I also bought a beautiful bunch of beets, which of course means we had <a href="recipe-beet-greens.html">Saut&eacute;ed Beet Greens</a> for breakfast.</p>
+                    </article>
+                    <!-- <hr class="article-divider">-->
+                </div>
+            </div>
+        </div>
+         <div id="footer">
+            <p>&copy;2022 Alyse Delaney</p>
+         </div>
+    </div>
+</body>
+<footer>
+</footer>
+</html>

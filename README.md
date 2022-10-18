@@ -1,2 +1,0 @@
-# alysedelaney.github.io
- 
