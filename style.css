@@ -99,21 +99,17 @@ h5 {
   font-size: 1.1em;
 }
 
-p, li, caption, th {
+p, caption, th {
   font-family: 'Patrick Hand SC', 'Courier New', Courier, monospace;
   font-size: 1.3em;
   text-transform: lowercase;
 }
 
-/*
-
-non-handwriting font for paragraphs? 
-
-p {
+li {
   font-family: 'Source Serif Pro', serif;
   font-weight: 400;
   font-size: 1em;
-} */ 
+}
 
 /* NAVIGATION */
 
@@ -143,7 +139,7 @@ p {
 
 .navigation a:hover {
   border: 1.5px solid black;
-  background-color: rgb(17, 17, 196);
+  background-color: black;
   border-radius: 13px;
   color: white; 
 }
@@ -171,8 +167,8 @@ a:hover {
   display: flex;
   align-items:flex-start;
   width: 75%;
-  max-width: 1200px;
-  max-height: 700px;
+  /* max-width: 1200px;
+  max-height: 700px; */
   margin: 0 auto;
   margin-top: 55px;
   border: 2px solid black;
@@ -182,12 +178,14 @@ a:hover {
 
 .recipe-photo {
   border-radius: 15px;
-  max-width: 500px; 
+  /* max-width: 500px; */
+  max-height: 75vh;
+  max-width: 45vw;
 }
 
 .recipe-instructions {
   padding: 0px 50px; 
-  max-height: 625px;
+  max-height: 75vh;
   overflow: scroll;
 }
 
@@ -222,6 +220,7 @@ a:hover {
 .journal-gallery {
   display: flex;
   flex-flow: row;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
