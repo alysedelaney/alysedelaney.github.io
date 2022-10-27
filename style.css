@@ -68,6 +68,12 @@ li {
   line-height: 1.5em;
 }
 
+#poem {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: .8em;
+  padding-left: 10px;
+}
+
 /* NAVIGATION */
 
 .navigation {
