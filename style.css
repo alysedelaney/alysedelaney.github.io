@@ -357,37 +357,25 @@ color: rgb(0, 0, 0, 0);
 
 /* ABOUT Page */
 
-.about-content {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 25px 50px;
-  margin-bottom: 200px;
-}
-
-.about-hello-message {
+.about-content-flex {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px; 
-  align-content: flex-end;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  /* how do I get these to align based on their bottoms? */
-}
-
-.about-paragraph {
-  width: 60%;
-}
-
-.about-image-paragraph {
-  display: flex;
-  flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
-  align-content: center;
+  width: 90%;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.about-content-text {
+  width: 500px;
+  min-width: 275px;
+  padding-left: 15px;
 }
 
 #hello-graphic {
-  font-size: .6em;
+  font-size: .5em;
   text-align: left;
   border: 1.5px solid black;
   border-radius: 10px;
@@ -395,9 +383,8 @@ color: rgb(0, 0, 0, 0);
   width: fit-content;
 }  
 
-.about-content img {
-  width: 250px;
-  margin: 15px;
+.about-content-image img {
+  width: 350px;
   border-radius: 15px;
 }
 
@@ -436,3 +423,9 @@ color: rgb(0, 0, 0, 0);
   color: black; 
   text-decoration: none;
  } 
+
+ #footer {
+  color: gray;
+  text-align: center;
+  font-size: small;
+ }
