@@ -1,0 +1,437 @@
+
+  /*
+  questions for tech tutor: 
+    -Sizing on journal page
+    -footer
+    -how do you get flex boxes to go underneath each other? journal page and about page
+    -highlight active menu item? 
+    -calendar hovering- make equal size
+    -submission form on about page? for submitting recipes and stories
+    -print function? recipe pages in 8.5x11 format
+    -JS how to get back button to previous place on page
+    -and how to have back to top button stick
+    -modal/lightbox windows for gallery images
+  */
+
+* {
+    box-sizing: border-box;
+  }
+
+ 
+
+/* this is supposed to make the footer stay at the bottom, even when the page is short, but it goes too far?
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+.content-wrap {
+    padding-bottom: 2.5rem;
+  } */
+
+
+/* Text Styling */  
+
+h1 {
+  font-family: 'Imbue', serif;
+  font-weight: 100;
+  text-align: center; 
+  font-size: 10em;
+  margin: -20px auto;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+h2, h3 {
+  font-family: 'Port Lligat Slab', serif;
+  font-size: 2.1em;
+  text-align: left;
+  font-weight: 600;
+}
+
+h3 {
+font-size: 1.5em;
+}
+
+h4, th {
+font-family: 'Patrick Hand SC', cursive;
+font-size: 1.2em;
+margin-bottom: -10px;
+}
+
+p, li, caption {
+font-family: 'Arvo', serif;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+#poem {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: .8em;
+  padding-left: 10px;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  display: inline;
+  font-family: 'Port Lligat Slab', serif;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.navigation a {
+  display: inline-block;
+  padding: 15px;
+  margin-left: 20px;
+  border: 1.5px solid transparent;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation a:hover {
+  background-color: black;
+  border-radius: 13px;
+  color: white; 
+}
+
+.navigation a:active {
+  background-color: rgb(12, 12, 145);
+  border-radius: 13px;
+  color: white; 
+}
+
+/* Link Styling */
+
+a {
+  color: rgb(221, 162, 0);
+}
+
+a:hover {
+  color: red; 
+}
+
+/* INDEX PAGE -- Gallery, Figure, and Image Formatting */
+
+.recipe-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0; 
+    margin: 0 auto;
+  }
+
+.recipe-gallery img {
+    width: 100%;
+    max-width: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+figure {
+    display: flex;
+    flex-flow: column;
+    border: 1.5px solid black;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+  
+figcaption {
+    font-family: 'Port Lligat Slab', serif;
+    font-weight: 300;   
+    font-size: 1.25em;
+    padding-top: 10px;
+  }
+
+figure:hover {
+    background-color: black;
+    color: white;
+}
+
+/* RECIPE Pages */
+
+/* OLD TRYING NEW
+
+.recipe-content {
+  display: flex;
+  align-items:flex-start;
+  width: 75%;
+  max-width: 1200px;
+  max-height: 700px;
+  margin: 0 auto;
+  margin-top: 55px;
+  border: 2px solid black;
+  padding: 35px;
+  background-color: white;
+}
+
+.recipe-content img {
+  border-radius: 15px;
+  max-width: 500px; 
+}
+
+.recipe-instructions {
+  padding: 0px 50px; 
+  max-height: 625px;
+  overflow: scroll;
+}
+
+.recipe-descriptors {
+  font-size: .9em;
+}
+
+.recipe-page h2 {
+  font-size: 3em;
+  margin: -5px 0;
+} */
+
+
+.recipe-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.recipe-image img {
+  border-radius: 15px;
+  max-width: 45vh;
+}
+
+.recipe-instructions {
+  width: 60%;
+  min-width: 375px;
+  padding: 35px;
+  height: 57vh;
+  overflow: scroll;
+  background-color: #FBF9F7;
+  border-radius: 15px;
+}
+
+.recipe-page p {
+  line-height: 1.2em;
+}
+
+.recipe-page h3 {
+  margin-bottom: -7px;
+}
+
+.ingredients li {  
+  padding-left: 5px;
+  list-style: url('assets/tile-flower.svg');
+} 
+
+.recipe-descriptors {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 1.15em;
+  
+}
+
+.recipe-page h2 {
+  margin-bottom: -5px;
+  font-size: 2.5em;
+  margin-top: -10px;
+}
+
+.ingredients-sublist {
+  font-family: 'Port Lligat Slab', serif;
+  font-size: 1.2em;
+  line-height: 2em;
+  font-weight: bold;
+}
+
+/* 
+ page */
+
+.journal-content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.journal-gallery {
+  display: flex;
+  flex-flow: row;
+  gap: 15px;
+}
+
+.journal-content img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+article {
+  padding: 10px 20px;
+}
+
+.journal-articles {
+  max-height: 65vh;
+  overflow: scroll; 
+}
+/* Not sure if keeping divider, delete if not
+.article-divider {
+  border-bottom: .7px solid black;
+  margin: 50px 0;
+} */
+
+/* JOURNAL PAGE - Calendar styling */
+
+table, th, td {
+  border-collapse: collapse;
+  border: 2px solid white;
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 70px;
+  text-align: center;
+  padding: 5px;
+}
+
+td {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+}
+
+tr {
+  height: 70px;
+  background-color: black;
+  color: white;
+}
+
+#calendar-heading {
+  background-color: white;
+  height: 50px;
+  color: black;
+  vertical-align: center;
+}
+
+.empty {
+  background-color: white;
+}
+
+.no-content{
+  background: repeating-linear-gradient(
+  45deg,
+  rgb(61, 61, 61),
+  rgb(61, 61, 61) 2px,
+  white 2px,
+  white 8px
+);
+color: rgb(0, 0, 0, 0);
+}
+
+.calendar-link {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  /* ^figure out how to get this even for double digits */ 
+  border-radius: 5px;
+  text-align: center;
+}
+
+.calendar-link:hover{
+  background-color: rgb(221, 162, 0);
+  color: white; 
+  border: 1px solid black; 
+}
+
+.calendar-link:active{
+  background-color: red;
+  border: 1px solid black; 
+}
+
+#calendar-note {
+  text-align: center;
+}
+
+/* ABOUT Page */
+
+.about-content-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.about-content-text {
+  width: 500px;
+  min-width: 275px;
+  padding-left: 15px;
+}
+
+#hello-graphic {
+  font-size: .5em;
+  text-align: left;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: fit-content;
+}  
+
+.about-content-image img {
+  width: 350px;
+  border-radius: 15px;
+}
+
+/* COMING SOON page */
+
+.coming-soon {
+  background-color: black;
+}
+
+.coming-soon-text {
+  color: white;
+  text-align: center;
+}
+
+.coming-soon a {
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 13px;
+}
+
+.coming-soon a:hover {
+  border: 1.5px solid white;
+  background-color: white;
+  border-radius: 13px;
+  color: black; 
+}
+
+.coming-soon-content {
+  width: 50%;
+  max-width: 500px;
+  margin: 50px auto;
+  padding-top: 50px;
+} 
+
+#main-title-link {
+  color: black; 
+  text-decoration: none;
+ } 
+
+ #footer {
+  color: gray;
+  text-align: center;
+  font-size: small;
+ }
