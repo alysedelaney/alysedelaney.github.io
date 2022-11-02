@@ -95,7 +95,7 @@ li {
 }
 
 .navigation a:hover, .active-navigation {
-  background-color: black;
+  background-color: rgb(12, 12, 145);
   border-radius: 13px;
   color: white; 
 }
