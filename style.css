@@ -1,15 +1,9 @@
-
-  /*
-  questions for tech tutor: 
-    -Sizing on journal page
-    -footer
-    -how do you get flex boxes to go underneath each other? journal page and about page
-    -highlight active menu item? 
-    -calendar hovering- make equal size
-    -submission form on about page? for submitting recipes and stories
-    -print function? recipe pages in 8.5x11 format
-    -JS how to get back button to previous place on page
-    -and how to have back to top button stick
+/*
+Future ideas: 
+    -get footer in consistent place on pages
+    -calendar hovering- make equal size and have highlighted for current entry
+    -submission form on about page- for submitting recipes and stories
+    -print function- format recipe pages in 8.5x11 format
     -modal/lightbox windows for gallery images
   */
 
@@ -17,21 +11,7 @@
     box-sizing: border-box;
   }
 
- 
-
-/* this is supposed to make the footer stay at the bottom, even when the page is short, but it goes too far?
-
-.page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-.content-wrap {
-    padding-bottom: 2.5rem;
-  } */
-
-
-/* Text Styling */  
+/* Site-wide Text Styling */  
 
 h1 {
   font-family: 'Imbue', serif;
@@ -67,13 +47,6 @@ font-family: 'Arvo', serif;
 li {
   line-height: 1.5em;
 }
-
-/*
-#poem {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: .8em;
-  padding-left: 10px;
-} */
 
 #myBtn {
   display: none;
@@ -246,8 +219,7 @@ figure:hover {
   font-weight: bold;
 }
 
-/* 
- page */
+/* JOURNAL - content */
 
 .journal-content {
   width: 90%;
@@ -429,6 +401,8 @@ color: rgb(0, 0, 0, 0);
   text-align: center;
   font-size: small;
  }
+
+/* Media Query for adjusting elements when screen is downsized */
 
  @media only screen and (max-width: 1200px) {
   .journal-content {
