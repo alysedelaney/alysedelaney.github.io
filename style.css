@@ -287,6 +287,9 @@ article {
   .journal-articles {
     max-height: 100%;
   }
+  .journal-content img {
+    width: 125px;
+  }
 }
 
 /* Not sure if keeping divider, delete if not
