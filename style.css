@@ -280,18 +280,6 @@ article {
   overflow: scroll; 
 }
 
-@media only screen and (max-width: 1200px) {
-  .journal-content {
-    flex-direction: column;
-  }
-  .journal-articles {
-    max-height: 100%;
-  }
-  .journal-content img {
-    width: 125px;
-  }
-}
-
 /* Not sure if keeping divider, delete if not
 .article-divider {
   border-bottom: .7px solid black;
@@ -441,3 +429,19 @@ color: rgb(0, 0, 0, 0);
   text-align: center;
   font-size: small;
  }
+
+ @media only screen and (max-width: 1200px) {
+  .journal-content {
+    flex-direction: column;
+  }
+  .journal-articles {
+    max-height: 100%;
+  }
+  .journal-content img {
+    width: 125px;
+  }
+  .recipe-instructions {
+    width: 80%;
+    height: 100%;
+  }
+}
