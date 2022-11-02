@@ -11,17 +11,17 @@
 </head>
 <body>
     <header>
-        <a id="top"></a>
         <div class="title">
             <h1><a href="index.html" id="main-title-link">Recipe Box</a></h1>
         </div>
         <ul class="navigation">
-            <li><a href="index.html">cook</a></li>
+            <li><a href="index.html" class="active-navigation">cook</a></li>
             <li><a href="journal.html">journal</a></li>
             <li><a href="about.html">about</a></li>
         </ul>
     </header>
     <div class="page-container">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
         <div class="content-wrap">
             <div class="recipe-gallery">
             <figure>
@@ -193,12 +193,10 @@
             </figure>
         </div>
         </div>
-        <ul class="navigation">
-            <li><a href="#top">Back to Top</a></li>
-        </ul>
         <div id="footer">
             <p>&copy;2022 Alyse Delaney</p>
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>

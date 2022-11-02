@@ -68,10 +68,32 @@ li {
   line-height: 1.5em;
 }
 
+/*
 #poem {
   font-family: 'Courier New', Courier, monospace;
   font-size: .8em;
   padding-left: 10px;
+} */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px; 
+  right: 30px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 15px;
+  font-family: 'Port Lligat Slab', serif;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+#myBtn:hover {
+  background-color:rgb(12, 12, 145); /* Add a dark-grey background on hover */
 }
 
 /* NAVIGATION */
@@ -99,25 +121,30 @@ li {
   color: black;
 }
 
-.navigation a:hover {
+.navigation a:hover, .active-navigation {
   background-color: black;
   border-radius: 13px;
   color: white; 
 }
 
-.navigation a:active {
-  background-color: rgb(12, 12, 145);
+.navigation .active-navigation {
+  background-color: black;
   border-radius: 13px;
   color: white; 
 }
 
+
 /* Link Styling */
 
-a {
+p > a, h2 > a, h3 > a {
   color: rgb(221, 162, 0);
 }
 
-a:hover {
+p > a:visited, h2 > a:visited, h3 > a:visited {
+  color: rgb(221, 162, 0);
+}
+
+p > a:hover, h2 > a:hover, h3 > a:hover {
   color: red; 
 }
 
@@ -161,42 +188,6 @@ figure:hover {
 }
 
 /* RECIPE Pages */
-
-/* OLD TRYING NEW
-
-.recipe-content {
-  display: flex;
-  align-items:flex-start;
-  width: 75%;
-  max-width: 1200px;
-  max-height: 700px;
-  margin: 0 auto;
-  margin-top: 55px;
-  border: 2px solid black;
-  padding: 35px;
-  background-color: white;
-}
-
-.recipe-content img {
-  border-radius: 15px;
-  max-width: 500px; 
-}
-
-.recipe-instructions {
-  padding: 0px 50px; 
-  max-height: 625px;
-  overflow: scroll;
-}
-
-.recipe-descriptors {
-  font-size: .9em;
-}
-
-.recipe-page h2 {
-  font-size: 3em;
-  margin: -5px 0;
-} */
-
 
 .recipe-content {
   display: flex;
@@ -270,6 +261,7 @@ figure:hover {
 .journal-gallery {
   display: flex;
   flex-flow: row;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
@@ -284,8 +276,19 @@ article {
 
 .journal-articles {
   max-height: 65vh;
+  max-width: 1200px;
   overflow: scroll; 
 }
+
+@media only screen and (max-width: 1200px) {
+  .journal-content {
+    flex-direction: column;
+  }
+  .journal-articles {
+    max-height: 100%;
+  }
+}
+
 /* Not sure if keeping divider, delete if not
 .article-divider {
   border-bottom: .7px solid black;

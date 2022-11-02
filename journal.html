@@ -15,15 +15,17 @@
         <h1><a href="index.html" id="main-title-link">Recipe Box</a></h1>
         <ul class="navigation">
             <li><a href="index.html">cook</a></li>
-            <li><a href="journal.html">journal</a></li>
+            <li><a href="journal.html" class="active-navigation">journal</a></li>
             <li><a href="about.html">about</a></li>
         </ul>
     </header>
     <div>
         <div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
             <div class="journal-content">
                 <div class="journal-calendar">
                     <table>
+                        <br>
                         <caption>October 2022</caption>
                         <tr id="calendar-heading">
                             <th>Sun</th>
@@ -90,7 +92,7 @@
                             <td class="empty"></td>
                         </tr>
                     </table>
-                    <p id="calendar-note">click on day to jump to entry!</p>
+                    <p id="calendar-note">click on a day to jump to the journal entry</p>
                 </div>
                 <div class="journal-articles">
                     <a id="10-24-2022"></a>
@@ -217,4 +219,5 @@
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
