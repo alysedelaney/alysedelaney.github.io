@@ -94,16 +94,17 @@ li {
   color: black;
 }
 
-.navigation a:hover, .active-navigation {
-  background-color: rgb(12, 12, 145);
-  border-radius: 13px;
-  color: white; 
-}
-
-.navigation .active-navigation {
+.navigation a:hover {
   background-color: black;
   border-radius: 13px;
   color: white; 
+  text-decoration: none;
+}
+
+.navigation .active-navigation {
+  border-radius: 13px;
+  text-decoration: underline;
+  text-underline-offset: .5em;
 }
 
 
