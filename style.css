@@ -391,6 +391,17 @@ color: rgb(0, 0, 0, 0);
   padding-top: 50px;
 } 
 
+.soup-gif {
+  display: flex;
+  align-items: center;
+}
+
+#gif {
+  width: 200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 #main-title-link {
   color: black; 
   text-decoration: none;
