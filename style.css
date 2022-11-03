@@ -56,6 +56,7 @@ li {
   border: none;
   outline: none;
   background-color: black;
+  border: 2px solid black;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -66,7 +67,9 @@ li {
 }
 
 #myBtn:hover {
-  background-color:rgb(12, 12, 145); /* Add a dark-grey background on hover */
+  background-color:white; 
+  border: 2px solid black;
+  color: black;
 }
 
 /* NAVIGATION */
