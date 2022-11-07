@@ -1,10 +1,11 @@
 /*
-Future ideas: 
+For the future: 
     -get footer in consistent place on pages
     -calendar hovering- make equal size and have highlighted for current entry
     -submission form on about page- for submitting recipes and stories
     -print function- format recipe pages in 8.5x11 format
     -modal/lightbox windows for gallery images
+    -better fonts for mobile version
   */
 
 * {
@@ -112,7 +113,7 @@ li {
 
 /* Link Styling */
 
-p > a, h2 > a, h3 > a {
+p > a, h2 > a, h3 > a, li > a {
   color: rgb(221, 162, 0);
 }
 
@@ -120,7 +121,7 @@ p > a:visited, h2 > a:visited, h3 > a:visited {
   color: rgb(221, 162, 0);
 }
 
-p > a:hover, h2 > a:hover, h3 > a:hover {
+p > a:hover, h2 > a:hover, h3 > a:hover, li > a:hover {
   color: red; 
 }
 
@@ -221,6 +222,11 @@ figure:hover {
   line-height: 2em;
   font-weight: bold;
 }
+
+.ingredients > .nested {
+  list-style: none;
+}
+
 
 /* JOURNAL - content */
 
