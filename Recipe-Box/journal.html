@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Recipe Box | Food Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Imbue:opsz,wght@10..100,400;10..100,500;10..100,600;10..100,700&family=Patrick+Hand+SC&family=Port+Lligat+Slab&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" id="main-title-link">Recipe Box</a></h1>
+        <ul class="navigation">
+            <li><a href="index.html">cook</a></li>
+            <li><a href="journal.html" class="active-navigation">journal</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </header>
+    <div>
+        <div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+            <div class="journal-content">
+                <div class="journal-calendar">
+                    <table>
+                        <caption>October 2022</caption>
+                        <tr id="calendar-heading">
+                            <th>Sun</th>
+                            <th>Mon</th>
+                            <th>Tues</th>
+                            <th>Wed</th>
+                            <th>Thurs</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                        </tr>
+                        <tr>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td><a href="#10-01-2022" class="calendar-link" id="calendar-10-01-2022">1</a></td>
+                        
+                        </tr>
+                        <tr>
+                            <td><a href="#10-02-2022" class="calendar-link">2</a></td>
+                            <td class="no-content">3</td>
+                            <td class="no-content">4</td>
+                            <td class="no-content">5</td>
+                            <td class="no-content">6</td>
+                            <td><a href="#10-07-2022" class="calendar-link">7</a></td>
+                            <td><a href="#10-08-2022" class="calendar-link">8</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#10-09-2022" class="calendar-link">9</a></td>
+                            <td class="no-content">10</td>
+                            <td class="no-content">11</td>
+                            <td class="no-content">12</td>
+                            <td class="no-content">13</td>
+                            <td class="no-content">14</td>
+                            <td><a href="#10-15-2022" class="calendar-link">15</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#10-16-2022" class="calendar-link">16</a></td>
+                            <td class="no-content">17</td>
+                            <td class="no-content">18</td>
+                            <td class="no-content">19</td>
+                            <td class="no-content">20</td>
+                            <td class="no-content">21</td>
+                            <td><a href="#10-22-2022" class="calendar-link">22</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#10-23-2022" class="calendar-link">23</a></td>
+                            <td><a href="#10-24-2022" class="calendar-link">24</a></td>
+                            <td class="no-content">25</td>
+                            <td class="no-content">26</td>
+                            <td class="no-content">27</td>
+                            <td class="no-content">28</td>
+                            <td class="no-content">29</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#10-30-2022" class="calendar-link">30</a></td>
+                            <td class="no-content">31</td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                            <td class="empty"></td>
+                        </tr>
+                    </table>
+                    <p id="calendar-note">click on a day to jump to the journal entry</p>
+                </div>
+                <div class="journal-articles">
+                    <a id="10-30-2022"></a>
+                    <article>
+                        <h4>October 30th, 2022</h4>
+                        <h2>Roasted Chicken Stock & Shio Ramen</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-30-2022-stock.jpg" alt="pot filled with vegetables and chicken pieces">
+                            <img src="assets/journal/10-30-2022-stock2.jpg" alt="a bowl of ramen with an egg, corn, and scallions">
+                            <img src="assets/journal/10-30-2022-stock3.jpg" alt="two quart containers filled with chicken broth">
+                        </div>
+                        <p>I put my recent chicken carcasses to use today to make some homemade chicken stock. I used two whole bodies, plus a fresh chicken neck and bones from some thighs. For veggies, I used some carrots, celery, onions, and some fennel stalks and corn cobbs that I had stashed in the freezer over the summer. I let the stock simmer for around 4 hours uncovered and it came out very rich. Suyoung made us some <a href="https://www.justonecookbook.com/shio-ramen/" target="_blank">Shio Ramen</a> for dinner with the chicken thighs, and I still have two extra quarts of stock for future uses! </p>
+                    </article>
+                    <a id="10-24-2022"></a>
+                    <article>
+                        <h4>October 24th, 2022</h4>
+                        <h2>My Grandmother's Cabbage</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-24-2022-cabbage.jpg" alt="purple cabbage on a cutting board">
+                            <img src="assets/journal/10-24-2022-cabbage2.jpg" alt="purple cabbage cooking in a pot">
+                            <img src="assets/journal/10-24-2022-cabbage3.jpg" alt="purple cabbage cooking in a pot">
+                        </div>
+                        <p>This dish is a classic at the Delaney family Thanksgiving. It's also one of my favorite comfort meals. It's both sweet and savory. Purple cabbage gets stewed down with granny smith apples, lemon juice, butter, and brown sugar until it melts in your mouth. It's my grandmother's recipe, but every woman in the family makes it slightly different. I love that.</p>
+                        <p>Mine, of course, tastes most like my mom's. I made it on this cold, rainy October monday.</p>
+                    </article>
+                    <a id="10-23-2022"></a>
+                    <article>
+                        <h4>October 23rd, 2022</h4>
+                        <h2>Sunday Roast</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-23-2022-chicken.jpg" alt="a whole raw chicken in a pan">
+                            <img src="assets/journal/10-23-2022-chicken2.jpg" alt="a roasted whole chicken">
+                            <img src="assets/journal/10-23-2022-chicken3.jpg" alt="a plate of food with mashed potatos, chicken, and gravy">
+                        </div>
+                        <p>Chicken night! This lady got a simple treatment, à la <a href="https://www.marthastewart.com/356165/perfect-roast-chicken" target="_blank">Martha Stewart</a>. Inside the cavity I placed a bundle of fresh rosemary and sage and an entire lemon. Before going into the oven, she got massaged with all over butter and then was roased over a bed of onions. I made gravy from the onions and drippings, and served alongside some brown-butter garlic mashed potatoes. May she rest in peace. </p>
+                    </article>
+                    <a id="10-22-2022"></a>
+                    <article>
+                        <h4>October 22nd, 2022</h4>
+                        <h2>Market Sights</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-22-2022-market.jpg" alt="apples in crates">
+                            <img src="assets/journal/10-22-2022-market2.jpg" alt="carrots with green tops">
+                            <img src="assets/journal/10-22-2022-market3.jpg" alt="a hand holding an egg">
+                        </div>
+                        <p>Today was the perfect fall day. I picked up the usuals at the market, including some beautiful blue heirloom eggs, and just enjoyed the sights.</p>
+                    </article>
+                    <a id="10-16-2022"></a>
+                    <article>
+                        <h4>October 16th, 2022</h4>
+                        <h2>Rick Martinez's Mole</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-16-2022-mole.jpg" alt="cooking preparation">
+                            <img src="assets/journal/10-16-2022-mole2.jpg" alt="pot full of mole ingredients">
+                            <img src="assets/journal/10-16-2022-mole3.jpg" alt="plate of food with mole and rice">
+                        </div>
+                        <p>Rick Martinez inspired us to try making mole for the first time at the food festival last weekend. I followed his recipe for <a href="https://food52.com/recipes/84225-mole-sencillo-recipe" target="_blank">Mole Sencillo</a>, but added some of the spices he used at his demonstration, similar to the ones in his <a href="https://cooking.nytimes.com/recipes/1023509-mole-negro" target="_blank">Mole Negro</a> recipe. To find as fresh dried peppers as possible, we ventured to <a href="https://foodsofnations.com/" target="_blank">Kaluystan's</a> in Murray Hill. Holy smokes- that place is amazing. They have pretty much every spice you would ever need, including a powered version of almost every fruit and vegetable to exist. We ended up going with a combination of ancho, guajillo, and cascabel chiles. We were also able to find avocado leaves, which Rick describes as a fruitier version of bay leaves. Since I am gluten-free, we subbed out the animal crackers for gluten-free vanilla wafers. We learned at the food festival that you can really adapt a mole to what is in your pantry! It turned out incredible, and so warming. An important step I took to make the mole smooth was to strain it using a fine mesh strainer after blending. Maybe this wouldn't be needed, though, if you have a strong blender than me. </p>
+                    </article>
+                    <a id="10-15-2022"></a>
+                    <article>
+                        <h4>October 15th, 2022</h4>
+                        <h2>Market Breakfast: Smoked Mussels with Custardy Scrambled Eggs</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-15-2022-mussels.jpg" alt="plate of food with salad, toast, eggs, and mussels">
+                        </div>
+                        <p>Today, the market had these delicious smoked mussels. The fishmonger recommended having them with some scrambled eggs, so we got home and did just that. I also found my favorite tender mustard greens, which I dressed simply with some lemon juice and olive oil.</p>
+                    </article>
+                    <a id="10-09-2022"></a>
+                    <article>
+                        <h4>October 9th, 2022</h4>
+                        <h2>Brothy Veggies & Whole Fried Bass at <a href="https://www.falansai.com/">Falansai</a></h2>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-09-2022-falansai.jpg" alt="a dinner table with a plate of fish">
+                            <img src="assets/journal/10-09-2022-falansai2.jpg" alt="a dinner table with soup and an appetizer">
+                        </div>
+                        <p>Suyoung and I, with our friends, maintain this massive collaborative Google Maps list with every single restaurant we want to try in the city- it currently features 134 restaurants and grows every week! It is meant to inspire us in those moments when we have been out and about all day and realize we're totally starving and have absolutely no idea where to eat. Because decision paralysis is real, and unfornately, so is bad food in NYC.</p>
+                        <p>Anyway, it finally came in handy today! We had been thrifting in Bushwick, and decided to visit Falansai (shout out to Shreya for saving it to the list) after discovering they had a whole fried fish on the menu. We are currently eating our way through every whole-fish-dish in the city- stay tuned for an official ranking. It made the cut! It was perfectly tender, served on top of a bed of rich creamy curry. The standout of the meal, however, was a simple dish of market vegetables served in their house pho broth. Oh my god, the broth was so decadent, and really hit the spot on a cold fall day. </p>
+                    </article>
+                    <!-- <hr class="article-divider">-->
+                    <a id="10-08-2022"></a>
+                    <article>
+                        <h4>October 8th, 2022</h4>
+                        <h2>The New York Times Food Festival!</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-08-2022-nyt.jpg" alt="a skewer with tteobokki and galbi">
+                            <img src="assets/journal/10-08-2022-nyt2.jpg" alt="panel discussion">
+                            <img src="assets/journal/10-08-2022-nyt3.jpg" alt="a wooden spoon with signatures">
+                        </div>
+                        <p>This weekend my family went to the New York Times Food Festival to celebrate my mom's birthday. So many of my favorite chefs were there! I could go on and on about it so I'll just keep it short. Eric Kim and Maangchi demonstrated kimchi making and they were absolutely hilarious. We also saw Rick Martinez demonstrate how to cook mole with Melissa Clark, Priya Krishna and Stephen Satterfield discussed diversity in the food industry, the cast and producers talked about The Bear, and Ina Garten spoke about her newest cookbook (and yes- Jeffrey was present in the crowd). Since I couldn't bring my entire cookbook collection with me, I collected signatures on a spare wooden spoon.</p>
+                    </article>
+                    <!-- <hr class="article-divider">-->
+                    <a id="10-07-2022"></a>
+                    <article>
+                        <h4>October 7th, 2022</h4>
+                        <h2>Nautral Wine, Foie Gras, and Escargot at <a href="https://www.cafepaulette.com/" target="_blank">Caf&eacute; Paulette</a></h2>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-07-2022-paulette1.jpg" alt="a bottle of wine">
+                            <img src="assets/journal/10-07-2022-paulette2.jpg" alt="a dinner table with escargot and foie gras">
+                            <img src="assets/journal/10-07-2022-paulette3.jpg" alt="a picture of my sister laughing across the dinner table">
+                        </div>
+                        <p>My sister was in town this weekend so we celebrated with a truly decadent meal at our favorite restaurant, Caf&eacute; Paulette. We started with a bottle of natural ros&eacute; while we waited for our table to be ready. It was super salty and pretty dark, almost like a chilled red. Yummmm. For dinner, we shared  the escargot and foie gras special, and I tried not to think about my credit card balance. For entr&eacute;es, I had the duck confit, Suyoung had the ratatouille which was stuffed inside an entire tomato, and Jackie had my favorite, the uber pepper-y steak frites. Bon apetit!</p>
+                    </article>
+                    <!-- <hr class="article-divider">-->
+                    <article>
+                        <a id="10-02-2022"></a>
+                        <h4>October 2nd, 2022</h4>
+                        <h2>Rainy Days are for Braising</h2>
+                        <h3>Alison Roman's <a href="https://www.alisoneroman.com/recipes/tangy-braised-short-ribs" target="_blank">Tangy Braised Short Ribs</a></h3>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-02-2022-braise-broth.jpg" alt="a pot of food cooking">
+                            <img src="assets/journal/10-02-2022-braise-threehour.jpg" alt="a pot of food cooking">
+                            <img src="assets/journal/10-02-2022-braise-finished.jpg" alt="a pot of food cooking">
+                            <img src="assets/journal/10-02-2022-braise-plate.jpg" alt="a plate of food with braised meat and potatoes">
+                        </div>
+                        <p>This weekend was super cold and rainy thanks to the hurricane in Florida. But it was a great occasion for our first braise of the season. We followed Alison Roman's recipe for tangy braised short ribs and they were sooooo good. They cooked in the oven for three hours and literally melted in our mouths.</p>
+                    </article>
+                    <!-- <hr class="article-divider">-->
+                    <article>
+                        <a id="10-01-2022"></a>
+                        <h4>October 1st, 2022</h4>
+                        <h2>Breakfast via the Fort Greene Farmer's Market</h2>
+                        <div class="journal-gallery">
+                            <img src="assets/journal/10-01-2022-grapes.jpg" alt="a bowl of purple grapes">
+                            <img src="assets/journal/10-01-2022-beets.jpg" alt="a cutting board with chopped greens">
+                            <img src="assets/journal/10-01-2022-breakfast.jpg" alt="a plate of food with greens and an egg">
+                        </div>
+                        <p>Today we braced the rain and followed our usual Saturday morning routine of venturing to the Fort Greene farmers market. The highlight: these beautiful Concord grapes! Holy moly, they tasted just like grape candy, but with a nice tart finish. I also bought a beautiful bunch of beets, which of course means we had <a href="recipe-pages/beet-greens.html">Saut&eacute;ed Beet Greens</a> for breakfast.</p>
+                    </article>
+                    <!-- <hr class="article-divider">-->
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>&copy;2022 Alyse Delaney</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
