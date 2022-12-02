@@ -37,12 +37,15 @@ ul {
 
 a:link {
     color: #730F0A;
+	text-decoration: none;
 }
 
 a:visited {
     color: #77726A;
+	text-decoration: none;
 }
 
 a:hover {
     color: #AC2922;
+	text-decoration: none;
 }
