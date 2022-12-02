@@ -1,0 +1,48 @@
+body {
+	background-color: #F2E7D1;
+	}
+
+h1 {
+	font-family: 'DM Serif Text', serif;
+    color: #201E1B;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Alegraya Sans', sans-serif;
+	color: #201E1B;
+	text-align: center;
+}
+
+p {
+	font-family: 'Alegraya', serif;
+    color: #201E1B;
+}
+    
+nav {
+	font-family: 'Archivo', sans-serif;
+	color: #730F0A;
+}
+
+#emphasized-quotes {
+	font-family: 'DM Serif Text', serif;
+    color: #77726A;
+	text-align: center;
+	font-style: italic;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link {
+    color: #730F0A;
+}
+
+a:visited {
+    color: #77726A;
+}
+
+a:hover {
+    color: #AC2922;
+}
