@@ -52,3 +52,9 @@ a:hover {
     color: #AC2922;
 	text-decoration: none;
 }
+
+.headshot {
+	border-radius: 50%;
+	filter: grayscale(100%);
+	width: 200px;
+}
