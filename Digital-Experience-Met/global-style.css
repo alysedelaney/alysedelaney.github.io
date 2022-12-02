@@ -34,6 +34,9 @@ nav {
 	font-style: italic;
 }
 
+.section_navigation{
+	column-count: 3;
+}
 ul {
     list-style: none;
 }
