@@ -51,7 +51,7 @@ nav {
 		margin: 0 auto;
 }
   
-.mediated, .beyond, .data {
+.column {
     display: flex;
     flex-flow: column;
     border: 1.5px solid #77726A;
@@ -63,17 +63,7 @@ nav {
 
 /*I cannot make the color of the text change i don't understand why someone help pleasseee*/
 
-.mediated:hover {
-    background-color: #730F0A;
-    color: #faf9f6;
-}
-
-.beyond:hover {
-    background-color: #730F0A;
-    color: #faf9f6;
-}
-
-.data:hover {
+.column:hover {
     background-color: #730F0A;
     color: #faf9f6;
 }
