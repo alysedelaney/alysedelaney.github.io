@@ -52,6 +52,7 @@ nav {
     border: 1.5px solid #77726A;
     padding: 10px;
     margin-bottom: 50px;
+	max-width: 300px;
 }
 
 
