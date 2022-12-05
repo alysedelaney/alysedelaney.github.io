@@ -16,6 +16,12 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	font-family: 'Archivo', sans-serif;
+	color: #77726A;
+	text-align: center; 
+}
+
 p {
 	font-family: 'Alegreya', serif;
     color: #201E1B;
@@ -71,16 +77,20 @@ nav {
 /*sidebar nav for our personal sections*/
 
 .side-navigation {
-    width: 25%;
-    padding: 0 10px 0 0;
-    float: left;
+width: 150px;
+position: absolute;
+left: 0;
+top: 0;
+border: 1.5px solid #77726A;
+    padding: 10px;
 }
 
 .text {
-    width: 75%;
+    margin-left: 200px;
     padding: 0 10px 0 0;
     float: right;
 }
+
   
 ul {
     list-style: none;
