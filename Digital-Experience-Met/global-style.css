@@ -73,7 +73,7 @@ nav {
 
 .column:hover {
     background-color: #730F0A;
-    color: #faf9f6;
+    color: white;
 }
 
 /*sidebar nav for our personal sections*/
@@ -99,6 +99,18 @@ ul {
     list-style: none;
 }
 
+
+.bottom-navigation {
+	list-style: none;
+	margin: 20px;
+	padding: 0;
+	text-align: center;
+  }
+  
+  .bottom-navigation li {
+	display: inline;
+  }
+
 .bottom-navigation {
 	display: inline-block;
 	padding: 15px;
@@ -109,12 +121,17 @@ ul {
   }
   
   .bottom-navigation a:hover {
-	background-color: #201E1B;
-	border-radius: 13px;
+	background-color: #730F0A;
+	border-radius: 20px;
 	color: white; 
 	text-decoration: none;
   }
 
+  .bottom-navigation .active-navigation {
+	border-radius: 20px;
+	text-decoration: underline;
+	text-underline-offset: .5em;
+  }
 
 a:link {
     color: #730F0A;
