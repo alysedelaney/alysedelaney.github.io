@@ -68,7 +68,6 @@ nav {
     color: #faf9f6;
 }
   
-
 ul {
     list-style: none;
 }
@@ -92,4 +91,5 @@ a:hover {
 	border-radius: 50%;
 	filter: grayscale(100%);
 	width: 200px;
+	align: center;
 }
