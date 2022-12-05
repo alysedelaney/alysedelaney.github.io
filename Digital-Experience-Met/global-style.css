@@ -18,7 +18,12 @@ h2 {
 p {
 	font-family: 'Alegreya', serif;
     color: #201E1B;
-	margin: 60px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.body_text {
+	margin-bottom: 60px;
 }
     
 nav {
