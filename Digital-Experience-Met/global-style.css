@@ -80,9 +80,10 @@ nav {
 width: 150px;
 position: absolute;
 left: 0;
-top: 0;
+top: 50%;
 border: 1.5px solid #77726A;
-    padding: 10px;
+padding: 10px;
+
 }
 
 .text {
