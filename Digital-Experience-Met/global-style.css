@@ -36,15 +36,15 @@ nav {
 
 
 .section_navigation:after {
-	content: "";
-	display: table;
-	clear: both;
+	
   }
   
-.column {
-	float: left;
-  width: 33.33%;
-}
+.mediated, .beyond, .data {
+	width: 300px;
+	border: 10px #77726A;
+	padding: 50px;
+	margin: 20px;
+  }
 
 ul {
     list-style: none;
