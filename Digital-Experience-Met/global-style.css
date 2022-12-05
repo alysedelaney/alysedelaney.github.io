@@ -79,7 +79,7 @@ nav {
 .side-navigation {
 width: 150px;
 position: absolute;
-left: 0;
+margin-left: 60px;
 top: 50%;
 border: 1.5px solid #77726A;
 padding: 10px;
