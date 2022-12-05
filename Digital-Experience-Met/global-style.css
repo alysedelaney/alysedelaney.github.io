@@ -67,6 +67,20 @@ nav {
     background-color: #730F0A;
     color: #faf9f6;
 }
+
+/*sidebar nav for our personal sections*/
+
+.side-navigation {
+    width: 25%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.text {
+    width: 75%;
+    padding: 0 10px 0 0;
+    float: right;
+}
   
 ul {
     list-style: none;
