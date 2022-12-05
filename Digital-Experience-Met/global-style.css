@@ -36,15 +36,23 @@ nav {
 
 
 .section_navigation:after {
-	
-  }
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 0; 
+		margin: 0 auto;
+}
+  
   
 .mediated, .beyond, .data {
-	width: 60px;
-	border: 10px #77726A;
-	padding: 20px;
-	margin: 20px;
-  }
+    display: flex;
+    flex-flow: column;
+    border: 1.5px solid #77726A;
+    padding: 10px;
+    margin-bottom: 50px;
+}
 
 ul {
     list-style: none;
