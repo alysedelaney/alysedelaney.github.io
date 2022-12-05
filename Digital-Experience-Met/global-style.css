@@ -34,9 +34,15 @@ nav {
 	font-style: italic;
 }
 
-.section_navigation{
-	column-count: 3;
-}
+
+.section_navigation {
+	display: flex;
+  }
+  
+.column {
+	flex: 50%;
+  }
+
 ul {
     list-style: none;
 }
