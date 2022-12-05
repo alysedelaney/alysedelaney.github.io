@@ -34,8 +34,9 @@ nav {
 	font-style: italic;
 }
 
+/*Navigation boxes*/
 
-.section_navigation:after {
+.section_navigation {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -45,7 +46,6 @@ nav {
 		margin: 0 auto;
 }
   
-  
 .mediated, .beyond, .data {
     display: flex;
     flex-flow: column;
@@ -53,6 +53,23 @@ nav {
     padding: 10px;
     margin-bottom: 50px;
 }
+
+
+.mediated:hover {
+    background-color: #730F0A;
+    color: #faf9f6;
+}
+
+.beyond:hover {
+    background-color: #730F0A;
+    color: #faf9f6;
+}
+
+.data:hover {
+    background-color: #730F0A;
+    color: #faf9f6;
+}
+  
 
 ul {
     list-style: none;
