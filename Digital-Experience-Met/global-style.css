@@ -19,7 +19,7 @@ h2 {
 h3 {
 	font-family: 'Archivo', sans-serif;
 	color: #77726A;
-	text-align: center; 
+	text-align: left; 
 }
 
 p {
@@ -120,4 +120,12 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+}
+
+.copyright {
+	bottom: 0;
+	font-family: 'Archivo', sans-serif;
+	color: #77726A;
+	text-align: center;
+	font-size: small;
 }
