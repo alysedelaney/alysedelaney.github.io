@@ -103,7 +103,7 @@ ul {
 .bottom-navigation {
 	list-style: none;
 	margin: 20px;
-	padding: 60px;
+	padding: 20px;
 	text-align: center;
   }
   
@@ -113,16 +113,16 @@ ul {
 
 .bottom-navigation a{
 	display: inline-block;
-	padding: 40px;
-	margin: 60px;
-	border: 15px solid transparent;
+	padding: 20px;
+	margin: 20px;
+	border: 1.5px solid transparent;
 	text-decoration: none;
 	color: #730F0A;
   }
   
   .bottom-navigation a:hover {
 	background-color: #730F0A;
-	border-radius: 100px;
+	border-radius: 20px;
 	color: white; 
 	text-decoration: none;
   }
