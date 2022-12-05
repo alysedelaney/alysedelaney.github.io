@@ -7,12 +7,14 @@ h1 {
     color: #201E1B;
 	text-align: center;
 	font-style: bold;
+	margin: 60px;
 }
 
 h2 {
 	font-family: 'Alegreya Sans', sans-serif;
 	color: #730F0A;
 	text-align: center;
+	margin: 60px;
 }
 
 p {
