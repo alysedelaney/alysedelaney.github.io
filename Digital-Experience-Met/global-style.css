@@ -50,8 +50,8 @@ nav {
     display: flex;
     flex-flow: column;
     border: 1.5px solid #77726A;
-    padding: 100px;
-    margin-bottom: 50px;
+    padding: 10px;
+    margin: 50px;
 	max-width: 300px;
 }
 
