@@ -1,5 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
 	background-color: #faf9f6;
+	width: 80%;
+	margin: 0 auto;
 	}
 
 h1 {
