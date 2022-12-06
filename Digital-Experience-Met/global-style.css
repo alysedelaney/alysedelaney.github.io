@@ -29,6 +29,7 @@ p {
     color: #201E1B;
 	margin-left: 60px;
 	margin-right: 60px;
+	font-size: large;
 }
 
 .body_text {
@@ -173,7 +174,8 @@ a:hover {
 }
 .bio {
 	float: right;
-	padding-bottom: 5%;
+	border: 2.5px solid #730F0A;
+	margin-bottom: 20px;
 }
 
 #headshot_tereza{
