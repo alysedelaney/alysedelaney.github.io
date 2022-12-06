@@ -48,8 +48,36 @@ nav {
 	font-style: italic;
 }
 
-/*Navigation boxes*/
+/*Home Page Chapter Navigation*/
 
+.chapter-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+.chapter-link {
+    display: flex;
+    flex-flow: column;
+    border: 1.5px solid #77726A;
+	max-width: 300px;
+	height: 450px;
+	margin: 30px;
+}
+
+.chapter-link:hover{
+	background-color: #730F0A;
+	color: white;
+}
+
+.chapter-link:hover > * {
+	color: white;
+}
+
+/*
 .section_navigation {
 		display: flex;
 		flex-direction: row;
@@ -68,7 +96,7 @@ nav {
     margin: 50px;
 	max-width: 300px;
 	height: 450px;
-}
+} */
 
 /*I cannot make the color of the text change i don't understand why someone help pleasseee*/
 
