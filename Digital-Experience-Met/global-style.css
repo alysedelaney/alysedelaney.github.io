@@ -7,6 +7,7 @@ h1 {
     color: #201E1B;
 	text-align: center;
 	font-style: bold;
+	margin: 60px;
 }
 
 h2 {
@@ -15,11 +16,23 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	font-family: 'Archivo', sans-serif;
+	color: #77726A;
+	text-align: left; 
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
 p {
 	font-family: 'Alegreya', serif;
     color: #201E1B;
 	margin-left: 60px;
 	margin-right: 60px;
+}
+
+.body_text {
+	margin-bottom: 60px;
 }
     
 nav {
@@ -34,9 +47,91 @@ nav {
 	font-style: italic;
 }
 
+/*Navigation boxes*/
+
+.section_navigation {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 0; 
+		margin: 0 auto;
+}
+  
+.column {
+    display: flex;
+    flex-flow: column;
+    border: 1.5px solid #77726A;
+    padding: 10px;
+    margin: 50px;
+	max-width: 300px;
+	height: 450px;
+}
+
+/*I cannot make the color of the text change i don't understand why someone help pleasseee*/
+
+.column:hover {
+    background-color: #730F0A;
+    color: white;
+}
+
+/*sidebar nav for our personal sections*/
+
+.side-navigation {
+width: 150px;
+position: absolute;
+margin-left: 60px;
+top: 50%;
+border: 1.5px solid #77726A;
+padding: 10px;
+text-align: right;
+}
+
+.text {
+    margin-left: 200px;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
+  
 ul {
     list-style: none;
 }
+
+
+.bottom-navigation {
+	list-style: none;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+  }
+  
+  .bottom-navigation li {
+	display: inline;
+  }
+
+.bottom-navigation a{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border: 1.5px solid transparent;
+	text-decoration: none;
+	color: #730F0A;
+  }
+  
+  .bottom-navigation a:hover {
+	background-color: #730F0A;
+	border-radius: 10px;
+	color: white; 
+	text-decoration: none;
+  }
+
+  .bottom-navigation .active-navigation {
+	border-radius: 10px;
+	text-decoration: underline;
+	text-underline-offset: .5em;
+  }
 
 a:link {
     color: #730F0A;
@@ -57,4 +152,31 @@ a:hover {
 	border-radius: 50%;
 	filter: grayscale(100%);
 	width: 200px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
+
+.copyright {
+	bottom: 0;
+	font-family: 'Archivo', sans-serif;
+	color: #77726A;
+	text-align: center;
+	font-size: small;
+}
+
+/*ABOUT US section*/
+
+.headshot {
+	float:left;
+}
+.bio {
+	float: right;
+	padding-bottom: 5%;
+}
+
+#headshot_tereza{
+	float:right;
+}
+
