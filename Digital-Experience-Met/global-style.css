@@ -165,3 +165,18 @@ a:hover {
 	text-align: center;
 	font-size: small;
 }
+
+/*ABOUT US section*/
+
+.headshot {
+	float:left;
+}
+.bio {
+	float: right;
+	padding-bottom: 5%;
+}
+
+#headshot_tereza{
+	float:right;
+}
+
