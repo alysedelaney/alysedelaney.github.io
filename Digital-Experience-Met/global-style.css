@@ -151,10 +151,11 @@ nav > ul {
 
 .chapter-link > h2 {
 	text-align: center;
+	margin-bottom: 15px;
 }
 
 .chapter-link > p {
-	padding: 30px;
+	padding: 20px;
 }
 
 .chapter-link:hover{
@@ -164,6 +165,14 @@ nav > ul {
 
 .chapter-link:hover > * {
 	color: white;
+}
+
+.index-images {
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
 }
 
 
@@ -221,3 +230,4 @@ a:hover {
 #headshot_tereza{
 	float: right;
 }
+
