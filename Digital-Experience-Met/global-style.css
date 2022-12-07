@@ -1,4 +1,4 @@
-
+/* ---------- Text Styling ---------- */
 body {
 	background-color: #faf9f6;
 	width: 80%;
@@ -7,39 +7,23 @@ body {
 
 h1 {
 	font-family: 'DM Serif Text', serif;
-    color: #201E1B;
-
-	font-style: bold;
-	margin: 60px;
-}
+	color: #201E1B;
+} 
 
 h2 {
 	font-family: 'Alegreya Sans', sans-serif;
 	color: #730F0A;
-	text-align: center;
 }
 
 h3 {
 	font-family: 'Archivo', sans-serif;
-	color: #77726A;
-	text-align: left;
-	margin-left: 60px;
-	margin-right: 60px;
+	color: #77726A; 
 }
 
 p {
 	font-family: 'Alegreya', serif;
     color: #201E1B;
-	margin-left: 60px;
-	margin-right: 60px;
-	font-size: large;
-}
-
-.body_text {
-	margin-bottom: 100px;
-  margin-top: 100px;
-  margin-left: 40px;
-  margin-right: 40px;
+	font-size: 1.1em;
 }
 
 nav {
@@ -47,106 +31,51 @@ nav {
 	color: #730F0A;
 }
 
+nav > ul {
+    list-style: none;
+}
+
+.body_text {
+	margin: 30px;
+	margin-top: 45px;
+}
+
 .emphasizedquotes {
 	font-family: 'DM Serif Text', serif;
     color: #730F0A;
 	text-align: center;
 	font-style: italic;
-}
+} 
 
-/*Home Page Chapter Navigation*/
+/* Title Styling */
 
-.chapter-navigation {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+.title {
+	font-size: 1.3em;
   }
+  
+.underline {
+	text-decoration: underline;
+	text-decoration-color: #730F0A;
+	text-decoration-thickness: 1.5px;
+	text-underline-offset: 6px;
+}  
 
-.chapter-link {
-    display: flex;
-    flex-flow: column;
-    border: 1.5px solid #77726A;
-	max-width: 350px;
-	height: 500px;
-	margin: 30px;
+.credit-line > p {
+	line-height: .5em;
+	font-size: 1.3em;
+	font-weight: 700;
+	font-style: italic;
+	margin-top: -7px;
 }
 
-.chapter-link:hover{
-	background-color: #730F0A;
-	color: white;
+/* ---------- Navigation Styling ---------- */
+
+/* Main Navigation at the top */
+.main-navigation li {
+	padding-right: 50px;
 }
 
-.chapter-link:hover > * {
-	color: white;
-}
-
-/*
-.section_navigation {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		gap: 0;
-		margin: 0 auto;
-}
-
-.column {
-    display: flex;
-    flex-flow: column;
-    border: 1.5px solid #77726A;
-    padding: 10px;
-    margin: 50px;
-	max-width: 300px;
-	height: 450px;
-} */
-
-/*I cannot make the color of the text change i don't understand why someone help pleasseee*/
-
-.column:hover {
-    background-color: #730F0A;
-    color: white;
-}
-
-/*sidebar nav for our personal sections*/
-
-.side-navigation {
-
-width: 150px;
-position: absolute;
-margin-left: 60px;
-top: 37%;
-border: 1.5px solid #77726A;
-text-align: right;
-padding: 10px;
-}
-
-.text {
-    margin-left: 200px;
-    padding: 10px;
-    float: right;
-}
-
-
-ul {
-    list-style: none;
-}
-
-.main-navigation {
-
-  text-align: left;
-  position: absolute;
-}
-
-#title {
-  padding-left: 150px;
-  text-align: right;
-  font-size: small;
-}
-
+/* Bottom Navigation on content pages */
 .bottom-navigation {
 	list-style: none;
 	margin: 10px;
@@ -180,6 +109,66 @@ ul {
 	text-underline-offset: .5em;
   }
 
+  /*sidebar nav for our personal sections*/
+
+.side-navigation {
+	width: 150px; 
+	height: fit-content;
+	border: 1.5px solid #77726A;
+	text-align: right;
+	padding: 10px;
+}
+
+.text {
+	margin-left: 60px;
+	padding: 0 10px;
+	float: right;
+} 
+
+.chapter-content {
+	display: flex;
+}
+
+/*Home Page--Chapter Navigation*/
+
+.chapter-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+.chapter-link {
+    display: flex;
+    flex-flow: column;
+    border: 1.5px solid #77726A;
+	max-width: 350px;
+	height: 500px;
+	margin: 30px;
+}
+
+.chapter-link > h2 {
+	text-align: center;
+}
+
+.chapter-link > p {
+	padding: 30px;
+}
+
+.chapter-link:hover{
+	background-color: #730F0A;
+	color: white;
+}
+
+.chapter-link:hover > * {
+	color: white;
+}
+
+
+/* ---------- Link Styling ---------- */
+
 a:link {
     color: #730F0A;
 	text-decoration: none;
@@ -195,14 +184,20 @@ a:hover {
 	text-decoration: none;
 }
 
+#active-navigation {
+	color: #730F0A;
+}
+
+/* ---------- ABOUT US section ---------- */
+
 .headshot {
 	border-radius: 50%;
 	filter: grayscale(100%);
 	width: 200px;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
 }
 
 .copyright {
@@ -213,8 +208,6 @@ a:hover {
 	font-size: small;
 }
 
-/*ABOUT US section*/
-
 .headshot {
 	float:left;
 }
@@ -222,8 +215,9 @@ a:hover {
 	float: right;
 	border: 2.5px solid #730F0A;
 	margin-bottom: 20px;
+	padding: 10px 20px;
 }
 
 #headshot_tereza{
-	float:right;
+	float: right;
 }
