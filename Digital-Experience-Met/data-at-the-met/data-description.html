@@ -12,49 +12,122 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500&family=Alegreya:ital@0;1&family=Archivo:wght@100;400;500;600&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
-    <!--FAVICON-->
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-</head>
-<body>
-    <header>
-        <nav class="main-navigation">
-            <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="../about.html">ABOUT US</a></li>
-                <li><a href="../conclusion.html">CONCLUSION</a></li>
-                <li><a href="../references.html">REFERENCES</a></li>
-            </ul>
-        </nav>
-    </header>
-   <main>
-    <div class="title">
-        <h1>Data at the Met</h1>
-      </div>
-      <div class="chapter-content">
-        <nav class="side-navigation">
-            <ul>
-                <li><a href="data-introduction.html">INTRO</a></li>
-                <li><a href="data-description.html" id="active-navigation">DESCRIPTION</a></li>
-                <li><a href="data-analysis.html">ANALYSIS</a></li>
-            </ul>
-        </nav>
-        <div class="text">
-        <h2>Description</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        </div>
-    </main>
-   <footer>
-    <nav class="bottom-navigation">
-        <ul>
-            <li><a href="../mediated-experience/mediated-introduction.html">MEDIATED EXPERIENCE</a></li>
-            <li><a href="beyond-introduction.html" class="active-navigation">BEYOND THE MUSEUM</a></li>
-            <li><a href="../data-at-the-met/data-introduction.html">DATA AT THE MET</a></li>
-        </ul>
-    </nav>
-    <div class="copyright">
-        <p>© Alyse Delaney 2022</p>
-    </div>
-   </footer>
-</body>
-</html>
+    <!--FAVICON-
+        <link rel="icon" type="image/png" href="assets/favicon.png"> -->
+    </head>
+    <body>
+        <header>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../about.html">ABOUT US</a></li>
+                    <li><a href="../conclusion.html">CONCLUSION</a></li>
+                    <li><a href="../references.html">REFERENCES</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="title">
+                <h1>Data at the Met</h1>
+            </div>
+            <div class="chapter-content">
+                <nav class="side-navigation">
+                    <ul>
+                        <li><a href="data-introduction.html">INTRO</a></li>
+                        <li><a href="data-description.html" id="active-navigation">DESCRIPTION</a></li>
+                        <li><a href="data-analysis.html">ANALYSIS</a></li>
+                    </ul>
+                </nav>
+                <div class="text">
+                    <div>
+                        <h2>Description</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <h3>How to Use the Met Museum API:</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h3>See the API in action!</h3>
+                    <p>The following mini-application generates a random item currently on view in the Department of Greek and Roman Art:</p>
+                    <div class="random-artwork">
+                        <div>
+                            <img id="random-artwork-image"/> 
+                        </div>
+                        <div>
+                            <div class="artwork-info">
+                                <h2 id="artwork-title"></h2>
+                                <p><span class="underline">Culture</span>: <span id="artwork-culture"></span></p>
+                                <p><span class="underline">Period</span>: <span id="artwork-period"></span></p>
+                                <p><span class="underline">Date</span>: <span id="artwork-objectdate"></span></p>
+                                <p><span class="underline">Medium</span>: <span id="artwork-medium"></span></p>
+                                <p>On View in Gallery <span id="artwork-gallery"></span></p>
+                                <p>see full item detals<a id="artwork-link" target="_blank"> @ The Met Museum</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="randomize" onclick="randomArt()">Randomize!</button>
+                    <h3>How it's Made:</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            
+        </main>
+        <footer>
+            <nav class="bottom-navigation">
+                <ul>
+                    <li><a href="../mediated-experience/mediated-introduction.html">MEDIATED EXPERIENCE</a></li>
+                    <li><a href="beyond-introduction.html" class="active-navigation">BEYOND THE MUSEUM</a></li>
+                    <li><a href="../data-at-the-met/data-introduction.html">DATA AT THE MET</a></li>
+                </ul>
+            </nav>
+            <div class="copyright">
+                <p>© Alyse Delaney 2022</p>
+            </div>
+        </footer>
+        <script>
+            
+            //put this all into a function to make a button 
+            
+            function randomArt(){
+                fetch('https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=13&isOnView=true&hasImages=true&q=*')
+                .then((response) => response.json())
+                .then((objects) => {
+                    const randomSelect = Math.floor(Math.random()*objects.total)
+                    const randomObject = objects.objectIDs[randomSelect]
+                    console.log(randomObject)
+                    let objectCall = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${randomObject}`
+                    console.log(objectCall)
+                    fetch(objectCall)
+                    .then((response) => response.json())
+                    .then((data) => {
+                        let image = data.primaryImageSmall
+                        document.getElementById("random-artwork-image").src=image
+                        document.getElementById("artwork-title").innerText=data.title
+                        document.getElementById("artwork-period").innerText=data.period
+                        document.getElementById("artwork-objectdate").innerText=data.objectDate
+                        document.getElementById("artwork-medium").innerText=data.medium
+                        document.getElementById("artwork-culture").innerText=data.culture
+                        document.getElementById("artwork-gallery").innerText=data.GalleryNumber
+                        document.getElementById("artwork-link").href=data.objectURL
+                        // console.log(document.getElementById("artwork-title"))
+                    })
+                })
+            }
+
+            randomArt()
+            
+        </script>
+    </body>
+    </html>
+    
+    
+    
+    <!--
+        fetch(objectCall)
+        .then((response) => response.json())
+        .then((data) => {
+            
+        })
+        document.getElementById("api-test").src=
+        
+        
+        
+    -->

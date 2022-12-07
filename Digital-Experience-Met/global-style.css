@@ -231,3 +231,25 @@ a:hover {
 	float: right;
 }
 
+
+/* ---------- Alyse - Data Section Styling ---------- */
+
+.random-artwork {
+	display: flex;
+}
+
+#random-artwork-image {
+	padding: 35px;
+	margin: 10px;
+	max-width: 500px;
+	height: 400px;
+	border: 1.5px solid #730F0A;
+}
+
+.artwork-info {
+	padding-left: 25px;
+}
+
+.artwork-field {
+	font-family: 'Archivo', sans-serif;
+}
