@@ -67,8 +67,8 @@
                         </div>
                     </div>
                     <h3>How it's Made:</h3>
-                    <p>Simply put, my code asks the API what artworks are currently on display in the Met's Greek and Roman Art wing, then places the information into HTML code.</p>
-                    <p>First, JavaScript calls to the API. It asks the API to retrieve the Object IDs for works of art that are from Greek and Roman Art (Department 13), are currently on view (isOnView=True), and those that have images (hasImages=true).</p>
+                    <p>The code asks the API what artworks are currently on display in the Met's Greek and Roman Art wing, then places the information into HTML code using JavaScript.</p>
+                    <p>First, the following code snipet calls to the API. It asks the API to retrieve the Object IDs for works of art that are 1) from Greek and Roman Art (Department 13), 2) are currently on view (isOnView=True), and 3) have images (hasImages=true).</p>
                     <p class="code-block">fetch('https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=13&isOnView=true&hasImages=true&q=*')<br>.then((response) => response.json())</p>
                     <p>After that, it generates a random number to select from the array of objects provided by the API to randomly select one of the object IDs:</p>
                     <p class="code-block">.then((objects) => {<br>
@@ -90,8 +90,7 @@
                         document.getElementById("artwork-link").href=data.objectURL</p>
                     <p>The entire script is placed in a function called "randomArt()", which is then used to create the Randomize button.</p>
                 </div>
-            </div>
-            
+            </div> 
         </main>
         <footer>
             <nav class="bottom-navigation">
