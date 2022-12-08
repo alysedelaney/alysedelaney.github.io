@@ -58,14 +58,35 @@
                                 <p><span class="underline">Period</span>: <span id="artwork-period"></span></p>
                                 <p><span class="underline">Date</span>: <span id="artwork-objectdate"></span></p>
                                 <p><span class="underline">Medium</span>: <span id="artwork-medium"></span></p>
-                                <p>On View in Gallery <span id="artwork-gallery"></span></p>
-                                <p>see full item detals<a id="artwork-link" target="_blank"> @ The Met Museum</a></p>
+                                <p><p><span class="underline">Gallery</span>: <span id="artwork-gallery"></span></p>
+                                <p>See full item details @ <a id="artwork-link" target="_blank">The Met's Digital Collections</a></p>
+                                <button id="randomize" onclick="randomArt()">Show me Another</button>
                             </div>
                         </div>
                     </div>
-                    <button id="randomize" onclick="randomArt()">Randomize!</button>
                     <h3>How it's Made:</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Simply put, my code asks the API what artworks are currently on display in the Met's Greek and Roman Art wing, then places the information into HTML code.</p>
+                    <p>First, JavaScript calls to the API. It asks the API to retrieve the Object IDs for works of art that are from Greek and Roman Art (Department 13), are currently on view (isOnView=True), and those that have images (hasImages=true).</p>
+                    <p class="code-block">fetch('https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=13&isOnView=true&hasImages=true&q=*')<br>.then((response) => response.json())</p>
+                    <p>After that, it generates a random number to select from the array of objects provided by the API to randomly select one of the object IDs:</p>
+                    <p class="code-block">.then((objects) => {<br>
+                        const randomSelect = Math.floor(Math.random()*objects.total)<br>
+                        const randomObject = objects.objectIDs[randomSelect]</p>
+                    <p>The random object ID is then placed into another call to the API:</p>
+                    <p class="code-block"> let objectCall = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${randomObject}`<br>
+                        fetch(objectCall)<br>
+                        .then((response) => response.json())</p>
+                    <p>The resulting information is then inserted into the related HTML elements:</p>
+                    <p class="code-block">.then((data) => {<br>
+                        document.getElementById("random-artwork-image").src=data.primaryImageSmall<br>
+                        document.getElementById("artwork-title").innerText=data.title<br>
+                        document.getElementById("artwork-period").innerText=data.period<br>
+                        document.getElementById("artwork-objectdate").innerText=data.objectDate<br>
+                        document.getElementById("artwork-medium").innerText=data.medium<br>
+                        document.getElementById("artwork-culture").innerText=data.culture<br>
+                        document.getElementById("artwork-gallery").innerText=data.GalleryNumber<br>
+                        document.getElementById("artwork-link").href=data.objectURL</p>
+                    <p>The entire script is placed in a function called "randomArt()", which is then used to create the Randomize button.</p>
                 </div>
             </div>
             
@@ -92,14 +113,11 @@
                 .then((objects) => {
                     const randomSelect = Math.floor(Math.random()*objects.total)
                     const randomObject = objects.objectIDs[randomSelect]
-                    console.log(randomObject)
                     let objectCall = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${randomObject}`
-                    console.log(objectCall)
                     fetch(objectCall)
                     .then((response) => response.json())
                     .then((data) => {
-                        let image = data.primaryImageSmall
-                        document.getElementById("random-artwork-image").src=image
+                        document.getElementById("random-artwork-image").src=data.primaryImageSmall
                         document.getElementById("artwork-title").innerText=data.title
                         document.getElementById("artwork-period").innerText=data.period
                         document.getElementById("artwork-objectdate").innerText=data.objectDate
