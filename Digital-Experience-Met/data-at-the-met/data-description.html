@@ -53,10 +53,12 @@
                     <p class="code-block">https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=Gustave%20Courbet</p>
                     <p>This request is first targeting all records that have images (hasImages=true), then asking a question (q=) to search within those records for artists named Gustave Courbet. The result is a JSON file containing 89 object IDs. The object IDs can then be used to retrieve the artwork's full record. For instance, “Woman in the Waves” is object 436004, and can make the following call using the Object endpoint:</p>
                     <p class="code-block">https://collectionapi.metmuseum.org/public/collection/v1/objects/436004</p>
-                    <img class="data-image" src="../assets/courbet-waves.jpeg">
-                    <img class="data-image" src="../assets/courbet-json.png">
-                    <div class="gallery-caption">
-                        <p>Left (Figure 1): Courbet, Gustave. Woman in the Waves. 1868. Right (Figure 2): Screenshot of the JSON file containing the painting's metadata.</p>
+                    <div>
+                        <img class="data-image" src="../assets/courbet-waves.jpeg">
+                        <img class="data-image" src="../assets/courbet-json.png">
+                        <div class="gallery-caption">
+                            <p>Left (Figure 1): Courbet, Gustave. Woman in the Waves. 1868. Right (Figure 2): Screenshot of the JSON file containing the painting's metadata.</p>
+                        </div>
                     </div>
                     <p>As a result, we get the artwork's metadata record (Figure 2), including common tombstone fields like title, date, and medium, as well as information about the last update to the metadata, the painting's acquisition date, and links to controlled vocabulary fields such as the Getty's Union List of Artist Names, the Art and Architecture Thesaurus for tagging keywords in the artwork, and the object's Wikidata URL. As will be discussed in the next section, these fields are important for connecting the artwork to larger semantic knowledge systems. Overall, the API provides extensive access to the collection data. It does not require an API key to use, which makes it a very good learning tool for students and researchers new to APIs. (cite documentation)</p>
                     <h3>The Met Museum API in Action</h3>
@@ -101,7 +103,7 @@
                         document.getElementById("artwork-gallery").innerText=data.GalleryNumber<br>
                         document.getElementById("artwork-link").href=data.objectURL</p>
                     <p>The entire script is placed in a function called "randomArt()", which is then used to create the Randomize button.</p>
-                    <p class="previous-page"><a href="data-introduction.html">Analysis</a> &#8592; Previous</p>
+                    <p class="previous-page"><a href="data-introduction.html">Introduction</a> &#8592; Previous</p>
                     <p class="next-page">Next &#8594; <a href="data-analysis.html">Analysis</a></p>
                 </div>
             </div> 

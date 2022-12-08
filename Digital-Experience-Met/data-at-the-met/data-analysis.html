@@ -39,12 +39,47 @@
                 </ul>
             </nav>
             <div class="text">
-                <h2>Analysis</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>Analysis: The Impact of Open Access and the Met Museum API</h2>
+                <p>In today’s hyper-connected digital sphere, a website unlinked to the wider web has metaphorical walls much like the physical gallery space. Information may be buried deep within pages or databases and require substantial digging on behalf of the visitor to find the information they want. The largest impact of the Met’s Open Access program is in the reach their collection now has beyond the museum’s website. The API has been utilized by students to create visualizations revealing insights about the collection makeup (cite) and by computer scientists developing artificial intelligence systems to automatically tag works of art with relevant keywords (cite). Through third-party applications the public is now able to more easily search and explore the Met’s collection. These applications can function as educational tools, meant to teach viewers about art historical periods; as inspirational tools, meant to illuminate creative connections between works in the collection; and as calls for action, meant to reveal shortcomings and potentials in the development of the museum’s collection. </p>
+                <h3>Linking Data to the Outside World</h3>
+                <p>When the program launched, the Met formed partnerships with institutions like Google, Wikimedia, Artstor, and the Digital Public Library of America. Each of these partnerships extend the collection into the world wide web. The Met’s primary partnership with Google is in its contribution to the Google Arts & Culture (link) project. Once the API was developed, the museum was able to automatically deposit 200,000+ works of art into the cross-institutional repository. Previously, the museum staff had to enter the records by hand and had only completed 757 records. Partnering with Google also means that the metadata about works of art is searchable via the Google Knowledge graph (link), which forms the at-a-glance summary box frequently displayed at the top of a page when you perform a Google search. Now, if you search for “Courbet Woman in the Waves” users can get immediate information about the painting, with links to Wikipedia, the Met, and related artworks in other museums’ collections. Unfortunately, this tool seems to work mostly for prominent Western artists and works of art. A search for “The Feast of Sada”, a folio from the notable manuscript, Shahnama (Book of Kings), which is marked as a highlight of the Islamic Art collection, provides no such blurb on Google.</p>
+                <div>
+                    <img class="dataanalysis-image" src="../assets/google-waves.png"> 
+                    <img class="dataanalysis-image" src="../assets/feast-of-sada.jpeg">
+                </div>
+                <p>Google’s Knowledge Graph is one instance of the growing trend to connect information online via linked data, and it is a movement picking up in cultural institutions to connect their resources to others’. By uploading their data into Wikimedia (the underlying repository of Wikipedia), the Met has contributed knowledge about their collection into the global knowledge base. Its data is now semantically connected to other pieces of data on the web. These links can be identified in the metadata records provided by the API. For instance, in the record for Courbet’s Woman in the Waves, the artist’s identifier in the Getty Union List of Artist Names is included: </p>
+                <p class="code-block">"constituents": [<br>
+                    {<br>
+                        "constituentID": 161790,<br>
+                        "role": "Artist",<br>
+                        "name": "Gustave Courbet",<br>
+                        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500010927",<br>
+                        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q34618",<br>
+                        "gender": ""<br>
+                    }<br>
+                ],</p>
+                <p>And is tagged with the (somewhat disappointing and reductive…) keyword, “Female Nudes,” pulled from the Art & Architecture Thesaurus: </p>
+                <p class="code-block">"tags": [<br>
+                    {<br>
+                        "term": "Female Nudes",<br>
+                        "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",<br>
+                        "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"<br>
+                    }<br>
+                ],</p>
+                <p>And the artwork as a whole also has a Wikidata tag:</p>
+                <p class="code-block"> "objectWikidata_URL": "https://www.wikidata.org/wiki/Q39013",</p>
+                <p>These links to controlled vocabularies and Wikidata URLs essentially make sure every institution is talking about the same instance of an artist, subject, medium, etc.. In turn, linking the item to these instances allows it to be connected to larger ideas and related concepts. For instance, the Met’s website may not explicitly say what movement Courbet was a part of (Realism) but the Wikidata URL ultimately situates the artwork within a networked field of knowledge and provides links to further explore the topic via Wikipedia. This has tremendous reach in terms of bringing the collection as an educational tool to the wider public, as most search engines use Wikipedia and its underlying databases as the first point of access when fulfilling queries (cite video). Museum staff observe that users will have a deeper engagement with the works via the museum’s website, but the existence of the data via Wikipedia provides crucial access points to the information.</p>
+                <h3>Next Steps: A Call for Intuitive Searching</h3>
+                <p>Overall, while the API is an amazing tool developed by the Metropolitan Museum of Art to expand the reach of its collection, there is still much room for development in providing visitors with quality engagement in terms of information retrieval. Most notably, this could be done through improvement of the search tool in the digital collection.</p>
+                <p>When browsing without a particular search in mind, the current filters are difficult to understand for anyone not familiar with art historical language or the collection’s layout. Under “Object Type / Material” what is the difference between “Albumen” and “Albumen silver prints”? If a user is trying to identify art objects of the Pacific, how will they know that this department is actually “The Michael C. Rockefeller Wing”? Furthermore, keyword searches frequently fail to provide accurate results. Why, for instance, when searching for “women artists” in the department of European Paintings, are only 8 of the 40 artworks displayed on the first page of results actually painted by women? Is this a shortcoming of the collection itself, or a shortcoming to adequately convey the scope of the collection to their users?</p>
+                <img class="data-image-full-width" src="../assets/search-results.png">
+                <p>While curious visitors may now be able to answer many of these questions through Google and the broader internet, the museum’s website should still provide comprehensive access for those looking to dive deeper into the content. Unfortunately, intuitive searching typically depends on keywords linked to artworks manually by museum staff. There have been initiatives by the Met to crowdsource tagging (cite), and, as previously mentioned, computer scientists are currently using the API to train software to automatically classify artworks (cite). Hopefully, this will expedite the process and relieve the labor intensive work of human catalogers. Possibly, a simpler adjustment could be made by narrowing down the filters, or by providing broader categories. Perhaps it would be more intuitive to have a filter for artwork form (Painting, Sculpture, Drawing), and then narrow down into materials. This information is easily connected to the digital collection via the API. For instance, the museum is currently working to include gender information about artists in the metadata, which in turn should ideally populate the search for “women artists.”Ultimately, utilizing linked data and semantic language has the potential to make searching more intuitive for the average, everyday visitor.  Hopefully, the API will provide the museum with the ability to analyze its own shortcomings and provide greater discovery and exploration opportunities for its visitors. </p>
+                <p class="previous-page"><a href="data-description.html">Accessing the Data</a> &#8592; Previous</p>
             </div>
         </div>
     </main>
    <footer>
+    <div class="section-divider"></div>
     <nav class="bottom-navigation">
         <ul>
             <li><a href="../mediated-experience/mediated-introduction.html">MEDIATED EXPERIENCE</a></li>

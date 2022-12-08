@@ -134,7 +134,6 @@ nav > ul {
 	margin-left: 60px;
 	margin-bottom: 70px;
 	padding: 0 10px;
-	float: right;
 } 
 
 .chapter-content {
@@ -292,9 +291,14 @@ button:hover {
 	height: 400px;
 }
 
+.introduction-gallery {
+	margin: auto 0;
+}
+
 .introduction-image {
-	height: 275px;
-	padding: 20px;
+	max-height: 600px;
+	max-width: 20%;
+	padding: 10px;
 	margin: 10px;
 	border: 1px solid #faf9f6;
 }
@@ -309,9 +313,19 @@ button:hover {
 	padding-left: 30px;
 }
 
+<<<<<<< Updated upstream
 /* ---------- Tereza - Beyond Section Styling ---------- */
 
 #beyond-three{
 	color: #730F0A;
 	font-weight: 700;
 }
+=======
+.data-image-full-width {
+	max-width: 100%;
+}
+
+.dataanalysis-image {
+	height: 800px;
+}
+>>>>>>> Stashed changes
