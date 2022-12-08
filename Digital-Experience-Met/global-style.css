@@ -308,3 +308,10 @@ button:hover {
 	font-size: .9em;
 	padding-left: 30px;
 }
+
+/* ---------- Tereza - Beyond Section Styling ---------- */
+
+#beyond-three{
+	color: #730F0A;
+	font-weight: 700;
+}
