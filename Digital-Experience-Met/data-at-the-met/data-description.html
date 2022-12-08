@@ -114,6 +114,7 @@
                     const randomSelect = Math.floor(Math.random()*objects.total)
                     const randomObject = objects.objectIDs[randomSelect]
                     let objectCall = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${randomObject}`
+                    console.log(objectCall)
                     fetch(objectCall)
                     .then((response) => response.json())
                     .then((data) => {
@@ -125,7 +126,7 @@
                         document.getElementById("artwork-culture").innerText=data.culture
                         document.getElementById("artwork-gallery").innerText=data.GalleryNumber
                         document.getElementById("artwork-link").href=data.objectURL
-                        // console.log(document.getElementById("artwork-title"))
+                        console.log(document.getElementById("artwork-title"))
                     })
                 })
             }
