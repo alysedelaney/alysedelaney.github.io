@@ -313,14 +313,12 @@ button:hover {
 	padding-left: 30px;
 }
 
-<<<<<<< Updated upstream
 /* ---------- Tereza - Beyond Section Styling ---------- */
 
 #beyond-three{
 	color: #730F0A;
 	font-weight: 700;
 }
-=======
 .data-image-full-width {
 	max-width: 100%;
 }
@@ -328,4 +326,3 @@ button:hover {
 .dataanalysis-image {
 	height: 800px;
 }
->>>>>>> Stashed changes
