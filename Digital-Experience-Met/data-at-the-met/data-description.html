@@ -39,16 +39,28 @@
                     </ul>
                 </nav>
                 <div class="text">
-                    <h2>Description</h2>
-                    <h3>Met Collection CSV</h3>
-                    <img class="data-image" src="../assets/api-call-example.png">
-                    <p>The primary way to access the museum's open access dataset is by utilizing the API.</p>
-                    <h3>How to Use the Met Museum API:</h3>
-                    <img class="data-image" src="../assets/athena.jpeg">
-                    <img class="data-image" src="../assets/athena-json.png">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <h3>See the API in action!</h3>
-                    <p>The following mini-application generates a random item currently on view in the Department of Greek and Roman Art:</p>
+                    <h2>Accessing the Data</h2>
+                    <p>A year after the Met announced their Open Access initiative, they launched the official Met Museum API in 2018. The API is the primary way to access the available data. Additionally, a CSV file containing every single record is available for download. The API is helpful to anyone with a moderate background in web development to engage with the data. The API has the benefit of targeting specific filters when searching the collection and thus resulting in a more targeted dataset. This is useful for developers, creators, and makers who don't necessarily need the entirety of the information. The CSV file, on the other hand, is more useful to data scientists, researchers, and students who require a complete dataset to analyze. It can be parsed using popular coding languages such as Python (cite three years). Both the API documentation and the CSV file can be found on the museum's GitHub repository (link).</p>
+                    <h3>How does the API work?</h3>
+                    <p>On the most basic level, the API provides the opportunity for a user or application to request and retrieve data from the collection. Every artwork in the collection has a unique Object ID, which can be used to find more information about the work. There are four endpoints in the Met's API. An endpoint is a URL that enables access to the information on the server (cite medium article). For the Met these endpoints are: Objects, Object, Departments, and Search:</p>
+                    <ol>
+                        <li>Objects (plural) provides a list of all available object ID</li>
+                        <li>Object (singular) provides the record for the called artwork, including all of its metadata</li>
+                        <li>Departments provides a list of all department IDs and their names</li>
+                        <li>Search allows the user to find all object IDs meeting certain criteria</li>
+                    </ol>
+                    <p>Typically, the user would perform a Search to retrieve all relevant object IDs pertaining to their query. The available search fields are listed in the API documentation. For instance, if a researcher wants to find images on all paintings by Gustave Courbet in the collection, they can perform the following call:</p>
+                    <p class="code-block">https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=Gustave%20Courbet</p>
+                    <p>This request is first targeting all records that have images (hasImages=true), then asking a question (q=) to search within those records for artists named Gustave Courbet. The result is a JSON file containing 89 object IDs. The object IDs can then be used to retrieve the artwork's full record. For instance, “Woman in the Waves” is object 436004, and can make the following call using the Object endpoint:</p>
+                    <p class="code-block">https://collectionapi.metmuseum.org/public/collection/v1/objects/436004</p>
+                    <img class="data-image" src="../assets/courbet-waves.jpeg">
+                    <img class="data-image" src="../assets/courbet-json.png">
+                    <div class="gallery-caption">
+                        <p>Left (Figure 1): Courbet, Gustave. Woman in the Waves. 1868. Right (Figure 2): Screenshot of the JSON file containing the painting's metadata.</p>
+                    </div>
+                    <p>As a result, we get the artwork's metadata record (Figure 2), including common tombstone fields like title, date, and medium, as well as information about the last update to the metadata, the painting's acquisition date, and links to controlled vocabulary fields such as the Getty's Union List of Artist Names, the Art and Architecture Thesaurus for tagging keywords in the artwork, and the object's Wikidata URL. As will be discussed in the next section, these fields are important for connecting the artwork to larger semantic knowledge systems. Overall, the API provides extensive access to the collection data. It does not require an API key to use, which makes it a very good learning tool for students and researchers new to APIs. (cite documentation)</p>
+                    <h3>The Met Museum API in Action</h3>
+                    <p>The following mini-application uses the Met Museum API to generate a random item currently on view in the Department of Greek and Roman Art:</p>
                     <div class="random-artwork">
                         <div>
                             <img id="random-artwork-image"/> 
@@ -68,7 +80,7 @@
                     </div>
                     <h3>How it's Made:</h3>
                     <p>The code asks the API what artworks are currently on display in the Met's Greek and Roman Art wing, then places the information into HTML code using JavaScript.</p>
-                    <p>First, the following code snipet calls to the API. It asks the API to retrieve the Object IDs for works of art that are 1) from Greek and Roman Art (Department 13), 2) are currently on view (isOnView=True), and 3) have images (hasImages=true).</p>
+                    <p>First, the following code snippet calls to the API. It asks the API to retrieve the Object IDs for works of art that are 1) from Greek and Roman Art (Department 13), 2) are currently on view (isOnView=True), and 3) have images (hasImages=true).</p>
                     <p class="code-block">fetch('https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=13&isOnView=true&hasImages=true&q=*')<br>.then((response) => response.json())</p>
                     <p>After that, it generates a random number to select from the array of objects provided by the API to randomly select one of the object IDs:</p>
                     <p class="code-block">.then((objects) => {<br>
@@ -89,15 +101,18 @@
                         document.getElementById("artwork-gallery").innerText=data.GalleryNumber<br>
                         document.getElementById("artwork-link").href=data.objectURL</p>
                     <p>The entire script is placed in a function called "randomArt()", which is then used to create the Randomize button.</p>
+                    <p class="previous-page"><a href="data-introduction.html">Analysis</a> &#8592; Previous</p>
+                    <p class="next-page">Next &#8594; <a href="data-analysis.html">Analysis</a></p>
                 </div>
             </div> 
         </main>
         <footer>
+            <div class="section-divider"></div>
             <nav class="bottom-navigation">
                 <ul>
                     <li><a href="../mediated-experience/mediated-introduction.html">MEDIATED EXPERIENCE</a></li>
-                    <li><a href="beyond-introduction.html" class="active-navigation">BEYOND THE MUSEUM</a></li>
-                    <li><a href="../data-at-the-met/data-introduction.html">DATA AT THE MET</a></li>
+                    <li><a href="../beyond-the-museum/beyond-introduction.html">BEYOND THE MUSEUM</a></li>
+                    <li><a href="data-introduction.html" class="active-navigation">DATA AT THE MET</a></li>
                 </ul>
             </nav>
             <div class="copyright">
