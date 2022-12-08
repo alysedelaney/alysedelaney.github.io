@@ -39,6 +39,10 @@ nav > ul {
 	margin-top: 45px;
 }
 
+.previous-next {
+	display: grid;
+}
+
 .next-page {
 	text-align: right;
 }
@@ -134,7 +138,6 @@ nav > ul {
 	margin-left: 60px;
 	margin-bottom: 70px;
 	padding: 0 10px;
-	float: right;
 } 
 
 .chapter-content {
@@ -292,22 +295,37 @@ button:hover {
 	height: 400px;
 }
 
-.introduction-image {
-	height: 275px;
-	padding: 20px;
+.data-introduction-gallery, .data-analysis-gallery, .data-description-gallery {
+	margin: 40px auto;
+}
+
+.data-analysis-image {
+	padding: 10px;
+	height: 500px;
+}
+
+
+.data-introduction-image {
+	height: 300px;
+	padding: 10px;
 	margin: 10px;
 	border: 1px solid #faf9f6;
 }
 
-.introduction-image:hover{
+.data-introduction-image:hover{
 	border: 1px solid #730F0A;
 }
 
-.gallery-caption {
+.data-gallery-caption {
 	font-style: italic;
 	font-size: .9em;
 	padding-left: 30px;
 }
+
+.data-image-full-width {
+	max-width: 100%;
+}
+
 
 /* ---------- Tereza - Beyond Section Styling ---------- */
 
