@@ -42,6 +42,13 @@ p, ol {
 	text-align: left;
 }
 
+.byline {
+	font-family: 'Alegreya', serif;
+	color: #77726A;
+	font-size: 1em;
+	font-style: italic;
+}
+
 .emphasizedquotes {
 	font-family: 'DM Serif Text', serif;
     color: #730F0A;
@@ -342,14 +349,18 @@ button:hover {
 	max-width: 100%;
 }
 
+.data-citation {
+	font-style: italic;
+	font-size: .9em;
+}
+
 
 /* ---------- Tereza - Beyond Section Styling ---------- */
 
-.beyond-three{
+.beyond-two{
 	color: #730F0A;
 	font-weight: 700;
-
-	<<<<<<< HEAD
+	text-align: center;
 }
 
 /* --------- Mediated section styling -------*/
