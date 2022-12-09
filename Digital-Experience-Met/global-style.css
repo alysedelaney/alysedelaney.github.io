@@ -25,15 +25,6 @@ p, ol {
 	font-size: 1.1em;
 }
 
-nav {
-	font-family: 'Archivo', sans-serif;
-	color: #730F0A;
-}
-
-nav > ul {
-    list-style: none;
-}
-
 .body_text {
 	margin: 30px;
 	margin-top: 45px;
@@ -88,6 +79,15 @@ nav > ul {
 /* Main Navigation at the top */
 .main-navigation li {
 	padding-right: 50px;
+}
+
+nav {
+	font-family: 'Archivo', sans-serif;
+	color: #730F0A;
+}
+
+nav > ul {
+    list-style: none;
 }
 
 /* Bottom Navigation on content pages */
@@ -212,6 +212,21 @@ a:hover {
 	color: #730F0A;
 }
 
+.body-link:link {
+	color: #730F0A;
+	text-decoration: underline;
+	text-decoration-thickness: .6px;	
+	text-underline-offset: 4px;
+}
+
+.body-link:visited {
+	color: #AC2922;
+}
+
+.body-link:hover{
+	color:#77726A;
+}
+
 /* ---------- ABOUT US section ---------- */
 
 .headshot {
@@ -299,6 +314,7 @@ button:hover {
 	margin: 40px auto;
 }
 
+
 .data-analysis-image {
 	padding: 10px;
 	height: 500px;
@@ -329,39 +345,7 @@ button:hover {
 
 /* ---------- Tereza - Beyond Section Styling ---------- */
 
-#beyond-three{
+.beyond-three{
 	color: #730F0A;
 	font-weight: 700;
-}
 
-/* --------- Mediated section styling -------*/
-
-.mediated-images {
-	width: 170px;
-	
-	
-    flex-flow: column;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-}
-
-.mediated-images-single {
-	width: 170px;
-	float: left;
-	
-    flex-flow: column;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-}
-
-.mediated-images-singled {
-	width: 170px;
-	float: right;
-	
-    flex-flow: column;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-}
