@@ -349,3 +349,37 @@ button:hover {
 	color: #730F0A;
 	font-weight: 700;
 
+	<<<<<<< HEAD
+}
+
+/* --------- Mediated section styling -------*/
+
+.mediated-images {
+	width: 170px;
+	
+	
+    flex-flow: column;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+.mediated-images-single {
+	width: 170px;
+	float: left;
+	
+    flex-flow: column;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+.mediated-images-singled {
+	width: 170px;
+	float: right;
+	
+    flex-flow: column;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
