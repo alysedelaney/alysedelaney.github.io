@@ -54,9 +54,9 @@
                     </ol>
                     <p class="data-citation">*via <a class="body-link" href="https://metmuseum.github.io/" target="_blank">The Metropolitan Museum of Art Collection API</a></p>
                     <p>Typically, the user would perform a Search to retrieve all relevant object IDs pertaining to their query. The available search fields are listed in the API documentation. For instance, if a researcher wants to find images on all paintings by Gustave Courbet in the collection, they can perform the following call:</p>
-                    <p class="code-block">https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=Gustave%20Courbet</p>
+                    <p class="code-block"><a target="_blank" href="https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=Gustave%20Courbet">https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=Gustave%20Courbet</a></p>
                     <p>This request is first targeting all records that have images (hasImages=true), then asking a question (q=) to search within those records for artists named Gustave Courbet. The result is a JSON file containing 89 object IDs. The object IDs can then be used to retrieve the artwork's full record. For instance, “Woman in the Waves” is object 436004, and can make the following call using the Object endpoint:</p>
-                    <p class="code-block">https://collectionapi.metmuseum.org/public/collection/v1/objects/436004</p>
+                    <p class="code-block"><a target="_blank" href="https://collectionapi.metmuseum.org/public/collection/v1/objects/436004">https://collectionapi.metmuseum.org/public/collection/v1/objects/436004</a></p>
                     <div class="data-description-gallery">
                         <img class="data-image" src="../assets/courbet-waves.jpeg">
                         <img class="data-image" src="../assets/courbet-json.png">
