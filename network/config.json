@@ -13,9 +13,9 @@
     "title": "Spice Relationships"
   },
   "legend": {
-    "edgeLabel": "edge",
+    "edgeLabel": "Recipe",
     "colorLabel": "Spice Group",
-    "nodeLabel": "node"
+    "nodeLabel": "Spice"
   },
   "features": {
     "search": false,
