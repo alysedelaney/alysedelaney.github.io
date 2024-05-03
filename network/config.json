@@ -18,7 +18,7 @@
     "nodeLabel": "Spice"
   },
   "features": {
-    "search": false,
+    "search": true,
     "groupSelectorAttribute": "Modularity Class",
     "hoverBehavior": "dim"
   },
