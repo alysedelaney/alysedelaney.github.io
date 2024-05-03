@@ -7,7 +7,7 @@
             "id": "45",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "30"
+                "Degree (Number of Connections)": "30"
             },
             "color": "rgb(247,133,255)",
             "size": 49.715911865234375
@@ -19,7 +19,7 @@
             "id": "96",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "2"
+                "Degree (Number of Connections)": "2"
             },
             "color": "rgb(43,173,238)",
             "size": 25.852272033691406
@@ -31,7 +31,7 @@
             "id": "13",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "52"
+                "Degree (Number of Connections)": "52"
             },
             "color": "rgb(247,133,255)",
             "size": 68.46591186523438
@@ -43,7 +43,7 @@
             "id": "2",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "89"
+                "Degree (Number of Connections)": "89"
             },
             "color": "rgb(148,5,5)",
             "size": 100.0
@@ -55,7 +55,7 @@
             "id": "68",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "32"
+                "Degree (Number of Connections)": "32"
             },
             "color": "rgb(143,187,48)",
             "size": 51.42045593261719
@@ -67,7 +67,7 @@
             "id": "42",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "22"
+                "Degree (Number of Connections)": "22"
             },
             "color": "rgb(43,173,238)",
             "size": 42.897727966308594
@@ -79,7 +79,7 @@
             "id": "77",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "9"
+                "Degree (Number of Connections)": "9"
             },
             "color": "rgb(43,173,238)",
             "size": 31.81818199157715
@@ -91,7 +91,7 @@
             "id": "82",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "5"
+                "Degree (Number of Connections)": "5"
             },
             "color": "rgb(43,173,238)",
             "size": 28.40909194946289
@@ -103,7 +103,7 @@
             "id": "12",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "48"
+                "Degree (Number of Connections)": "48"
             },
             "color": "rgb(143,187,48)",
             "size": 65.05682373046875
@@ -115,7 +115,7 @@
             "id": "25",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "42"
+                "Degree (Number of Connections)": "42"
             },
             "color": "rgb(43,173,238)",
             "size": 59.94318389892578
@@ -127,7 +127,7 @@
             "id": "103",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "4"
+                "Degree (Number of Connections)": "4"
             },
             "color": "rgb(247,133,255)",
             "size": 27.55681800842285
@@ -139,7 +139,7 @@
             "id": "57",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "20"
+                "Degree (Number of Connections)": "20"
             },
             "color": "rgb(247,133,255)",
             "size": 41.19318389892578
@@ -151,7 +151,7 @@
             "id": "64",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "6"
+                "Degree (Number of Connections)": "6"
             },
             "color": "rgb(234,52,149)",
             "size": 29.261363983154297
@@ -163,7 +163,7 @@
             "id": "44",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "31"
+                "Degree (Number of Connections)": "31"
             },
             "color": "rgb(247,133,255)",
             "size": 50.56818389892578
@@ -175,7 +175,7 @@
             "id": "16",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "45"
+                "Degree (Number of Connections)": "45"
             },
             "color": "rgb(234,52,149)",
             "size": 62.5
@@ -187,7 +187,7 @@
             "id": "95",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "3"
+                "Degree (Number of Connections)": "3"
             },
             "color": "rgb(43,173,238)",
             "size": 26.704545974731445
@@ -199,7 +199,7 @@
             "id": "30",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "44"
+                "Degree (Number of Connections)": "44"
             },
             "color": "rgb(143,187,48)",
             "size": 61.647727966308594
@@ -211,7 +211,7 @@
             "id": "27",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "48"
+                "Degree (Number of Connections)": "48"
             },
             "color": "rgb(143,187,48)",
             "size": 65.05682373046875
@@ -223,7 +223,7 @@
             "id": "76",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "8"
+                "Degree (Number of Connections)": "8"
             },
             "color": "rgb(143,187,48)",
             "size": 30.96590805053711
@@ -235,7 +235,7 @@
             "id": "51",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "18"
+                "Degree (Number of Connections)": "18"
             },
             "color": "rgb(43,173,238)",
             "size": 39.4886360168457
@@ -247,7 +247,7 @@
             "id": "22",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "49"
+                "Degree (Number of Connections)": "49"
             },
             "color": "rgb(242,166,2)",
             "size": 65.90908813476562
@@ -259,7 +259,7 @@
             "id": "43",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "18"
+                "Degree (Number of Connections)": "18"
             },
             "color": "rgb(143,187,48)",
             "size": 39.4886360168457
@@ -271,7 +271,7 @@
             "id": "14",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "36"
+                "Degree (Number of Connections)": "36"
             },
             "color": "rgb(242,166,2)",
             "size": 54.82954406738281
@@ -283,7 +283,7 @@
             "id": "38",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "9"
+                "Degree (Number of Connections)": "9"
             },
             "color": "rgb(242,166,2)",
             "size": 31.81818199157715
@@ -295,7 +295,7 @@
             "id": "73",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "10"
+                "Degree (Number of Connections)": "10"
             },
             "color": "rgb(143,187,48)",
             "size": 32.67045593261719
@@ -307,7 +307,7 @@
             "id": "3",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "68"
+                "Degree (Number of Connections)": "68"
             },
             "color": "rgb(43,173,238)",
             "size": 82.1022720336914
@@ -319,7 +319,7 @@
             "id": "60",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "11"
+                "Degree (Number of Connections)": "11"
             },
             "color": "rgb(247,133,255)",
             "size": 33.522727966308594
@@ -331,7 +331,7 @@
             "id": "91",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "3"
+                "Degree (Number of Connections)": "3"
             },
             "color": "rgb(247,133,255)",
             "size": 26.704545974731445
@@ -343,7 +343,7 @@
             "id": "37",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "21"
+                "Degree (Number of Connections)": "21"
             },
             "color": "rgb(247,133,255)",
             "size": 42.04545593261719
@@ -355,7 +355,7 @@
             "id": "84",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "5"
+                "Degree (Number of Connections)": "5"
             },
             "color": "rgb(43,173,238)",
             "size": 28.40909194946289
@@ -367,7 +367,7 @@
             "id": "49",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "17"
+                "Degree (Number of Connections)": "17"
             },
             "color": "rgb(247,133,255)",
             "size": 38.6363639831543
@@ -379,7 +379,7 @@
             "id": "92",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "2"
+                "Degree (Number of Connections)": "2"
             },
             "color": "rgb(43,173,238)",
             "size": 25.852272033691406
@@ -391,7 +391,7 @@
             "id": "100",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "7"
+                "Degree (Number of Connections)": "7"
             },
             "color": "rgb(234,52,149)",
             "size": 30.113636016845703
@@ -403,7 +403,7 @@
             "id": "46",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "11"
+                "Degree (Number of Connections)": "11"
             },
             "color": "rgb(242,166,2)",
             "size": 33.522727966308594
@@ -415,7 +415,7 @@
             "id": "39",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "13"
+                "Degree (Number of Connections)": "13"
             },
             "color": "rgb(242,166,2)",
             "size": 35.227272033691406
@@ -427,7 +427,7 @@
             "id": "6",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "36"
+                "Degree (Number of Connections)": "36"
             },
             "color": "rgb(143,187,48)",
             "size": 54.82954406738281
@@ -439,7 +439,7 @@
             "id": "36",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "38"
+                "Degree (Number of Connections)": "38"
             },
             "color": "rgb(143,187,48)",
             "size": 56.534088134765625
@@ -451,7 +451,7 @@
             "id": "72",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "25"
+                "Degree (Number of Connections)": "25"
             },
             "color": "rgb(143,187,48)",
             "size": 45.45454406738281
@@ -463,7 +463,7 @@
             "id": "20",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "56"
+                "Degree (Number of Connections)": "56"
             },
             "color": "rgb(143,187,48)",
             "size": 71.875
@@ -475,7 +475,7 @@
             "id": "86",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "8"
+                "Degree (Number of Connections)": "8"
             },
             "color": "rgb(148,5,5)",
             "size": 30.96590805053711
@@ -487,7 +487,7 @@
             "id": "81",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "7"
+                "Degree (Number of Connections)": "7"
             },
             "color": "rgb(247,133,255)",
             "size": 30.113636016845703
@@ -499,7 +499,7 @@
             "id": "106",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "2"
+                "Degree (Number of Connections)": "2"
             },
             "color": "rgb(247,133,255)",
             "size": 25.852272033691406
@@ -511,7 +511,7 @@
             "id": "58",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "14"
+                "Degree (Number of Connections)": "14"
             },
             "color": "rgb(242,166,2)",
             "size": 36.07954406738281
@@ -523,7 +523,7 @@
             "id": "80",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "2"
+                "Degree (Number of Connections)": "2"
             },
             "color": "rgb(148,5,5)",
             "size": 25.852272033691406
@@ -535,7 +535,7 @@
             "id": "90",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "11"
+                "Degree (Number of Connections)": "11"
             },
             "color": "rgb(148,5,5)",
             "size": 33.522727966308594
@@ -547,7 +547,7 @@
             "id": "98",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "1"
+                "Degree (Number of Connections)": "1"
             },
             "color": "rgb(143,187,48)",
             "size": 25.0
@@ -559,7 +559,7 @@
             "id": "101",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "5"
+                "Degree (Number of Connections)": "5"
             },
             "color": "rgb(247,133,255)",
             "size": 28.40909194946289
@@ -571,7 +571,7 @@
             "id": "15",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "32"
+                "Degree (Number of Connections)": "32"
             },
             "color": "rgb(234,52,149)",
             "size": 51.42045593261719
@@ -583,7 +583,7 @@
             "id": "4",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "57"
+                "Degree (Number of Connections)": "57"
             },
             "color": "rgb(148,5,5)",
             "size": 72.7272720336914
@@ -595,7 +595,7 @@
             "id": "19",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "20"
+                "Degree (Number of Connections)": "20"
             },
             "color": "rgb(234,52,149)",
             "size": 41.19318389892578
@@ -607,7 +607,7 @@
             "id": "94",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "7"
+                "Degree (Number of Connections)": "7"
             },
             "color": "rgb(43,173,238)",
             "size": 30.113636016845703
@@ -619,7 +619,7 @@
             "id": "11",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "38"
+                "Degree (Number of Connections)": "38"
             },
             "color": "rgb(234,52,149)",
             "size": 56.534088134765625
@@ -631,7 +631,7 @@
             "id": "24",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "44"
+                "Degree (Number of Connections)": "44"
             },
             "color": "rgb(43,173,238)",
             "size": 61.647727966308594
@@ -643,7 +643,7 @@
             "id": "65",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "15"
+                "Degree (Number of Connections)": "15"
             },
             "color": "rgb(242,166,2)",
             "size": 36.93181610107422
@@ -655,7 +655,7 @@
             "id": "21",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "39"
+                "Degree (Number of Connections)": "39"
             },
             "color": "rgb(143,187,48)",
             "size": 57.3863639831543
@@ -667,7 +667,7 @@
             "id": "83",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "4"
+                "Degree (Number of Connections)": "4"
             },
             "color": "rgb(43,173,238)",
             "size": 27.55681800842285
@@ -679,7 +679,7 @@
             "id": "31",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "41"
+                "Degree (Number of Connections)": "41"
             },
             "color": "rgb(242,166,2)",
             "size": 59.090911865234375
@@ -691,7 +691,7 @@
             "id": "33",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "13"
+                "Degree (Number of Connections)": "13"
             },
             "color": "rgb(242,166,2)",
             "size": 35.227272033691406
@@ -703,7 +703,7 @@
             "id": "59",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "7"
+                "Degree (Number of Connections)": "7"
             },
             "color": "rgb(143,187,48)",
             "size": 30.113636016845703
@@ -715,7 +715,7 @@
             "id": "87",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "5"
+                "Degree (Number of Connections)": "5"
             },
             "color": "rgb(143,187,48)",
             "size": 28.40909194946289
@@ -727,7 +727,7 @@
             "id": "26",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "14"
+                "Degree (Number of Connections)": "14"
             },
             "color": "rgb(234,52,149)",
             "size": 36.07954406738281
@@ -739,7 +739,7 @@
             "id": "62",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "7"
+                "Degree (Number of Connections)": "7"
             },
             "color": "rgb(43,173,238)",
             "size": 30.113636016845703
@@ -751,7 +751,7 @@
             "id": "7",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "54"
+                "Degree (Number of Connections)": "54"
             },
             "color": "rgb(143,187,48)",
             "size": 70.17045593261719
@@ -763,7 +763,7 @@
             "id": "102",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "4"
+                "Degree (Number of Connections)": "4"
             },
             "color": "rgb(247,133,255)",
             "size": 27.55681800842285
@@ -775,7 +775,7 @@
             "id": "69",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "28"
+                "Degree (Number of Connections)": "28"
             },
             "color": "rgb(143,187,48)",
             "size": 48.0113639831543
@@ -787,7 +787,7 @@
             "id": "0",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "65"
+                "Degree (Number of Connections)": "65"
             },
             "color": "rgb(242,166,2)",
             "size": 79.54545593261719
@@ -799,7 +799,7 @@
             "id": "1",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "4"
+                "Degree (Number of Connections)": "4"
             },
             "color": "rgb(148,5,5)",
             "size": 27.55681800842285
@@ -811,7 +811,7 @@
             "id": "48",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "12"
+                "Degree (Number of Connections)": "12"
             },
             "color": "rgb(242,166,2)",
             "size": 34.375
@@ -823,7 +823,7 @@
             "id": "85",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "3"
+                "Degree (Number of Connections)": "3"
             },
             "color": "rgb(148,5,5)",
             "size": 26.704545974731445
@@ -835,7 +835,7 @@
             "id": "47",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "25"
+                "Degree (Number of Connections)": "25"
             },
             "color": "rgb(143,187,48)",
             "size": 45.45454406738281
@@ -847,7 +847,7 @@
             "id": "56",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "16"
+                "Degree (Number of Connections)": "16"
             },
             "color": "rgb(43,173,238)",
             "size": 37.78409194946289
@@ -859,7 +859,7 @@
             "id": "5",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "68"
+                "Degree (Number of Connections)": "68"
             },
             "color": "rgb(242,166,2)",
             "size": 82.1022720336914
@@ -871,7 +871,7 @@
             "id": "70",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "8"
+                "Degree (Number of Connections)": "8"
             },
             "color": "rgb(234,52,149)",
             "size": 30.96590805053711
@@ -883,7 +883,7 @@
             "id": "99",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "7"
+                "Degree (Number of Connections)": "7"
             },
             "color": "rgb(234,52,149)",
             "size": 30.113636016845703
@@ -895,7 +895,7 @@
             "id": "55",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "32"
+                "Degree (Number of Connections)": "32"
             },
             "color": "rgb(234,52,149)",
             "size": 51.42045593261719
@@ -907,7 +907,7 @@
             "id": "66",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "8"
+                "Degree (Number of Connections)": "8"
             },
             "color": "rgb(148,5,5)",
             "size": 30.96590805053711
@@ -919,7 +919,7 @@
             "id": "93",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "5"
+                "Degree (Number of Connections)": "5"
             },
             "color": "rgb(247,133,255)",
             "size": 28.40909194946289
@@ -931,7 +931,7 @@
             "id": "105",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "4"
+                "Degree (Number of Connections)": "4"
             },
             "color": "rgb(247,133,255)",
             "size": 27.55681800842285
@@ -943,7 +943,7 @@
             "id": "35",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "25"
+                "Degree (Number of Connections)": "25"
             },
             "color": "rgb(242,166,2)",
             "size": 45.45454406738281
@@ -955,7 +955,7 @@
             "id": "32",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "17"
+                "Degree (Number of Connections)": "17"
             },
             "color": "rgb(234,52,149)",
             "size": 38.6363639831543
@@ -967,7 +967,7 @@
             "id": "53",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "37"
+                "Degree (Number of Connections)": "37"
             },
             "color": "rgb(242,166,2)",
             "size": 55.68181610107422
@@ -979,7 +979,7 @@
             "id": "52",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "13"
+                "Degree (Number of Connections)": "13"
             },
             "color": "rgb(242,166,2)",
             "size": 35.227272033691406
@@ -991,7 +991,7 @@
             "id": "17",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "47"
+                "Degree (Number of Connections)": "47"
             },
             "color": "rgb(234,52,149)",
             "size": 64.20454406738281
@@ -1003,7 +1003,7 @@
             "id": "8",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "28"
+                "Degree (Number of Connections)": "28"
             },
             "color": "rgb(242,166,2)",
             "size": 48.0113639831543
@@ -1015,7 +1015,7 @@
             "id": "63",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "10"
+                "Degree (Number of Connections)": "10"
             },
             "color": "rgb(242,166,2)",
             "size": 32.67045593261719
@@ -1027,7 +1027,7 @@
             "id": "40",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "7"
+                "Degree (Number of Connections)": "7"
             },
             "color": "rgb(43,173,238)",
             "size": 30.113636016845703
@@ -1039,7 +1039,7 @@
             "id": "50",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "16"
+                "Degree (Number of Connections)": "16"
             },
             "color": "rgb(247,133,255)",
             "size": 37.78409194946289
@@ -1051,7 +1051,7 @@
             "id": "79",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "5"
+                "Degree (Number of Connections)": "5"
             },
             "color": "rgb(247,133,255)",
             "size": 28.40909194946289
@@ -1063,7 +1063,7 @@
             "id": "61",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "14"
+                "Degree (Number of Connections)": "14"
             },
             "color": "rgb(247,133,255)",
             "size": 36.07954406738281
@@ -1075,7 +1075,7 @@
             "id": "74",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "13"
+                "Degree (Number of Connections)": "13"
             },
             "color": "rgb(143,187,48)",
             "size": 35.227272033691406
@@ -1087,7 +1087,7 @@
             "id": "75",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "8"
+                "Degree (Number of Connections)": "8"
             },
             "color": "rgb(148,5,5)",
             "size": 30.96590805053711
@@ -1099,7 +1099,7 @@
             "id": "9",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "49"
+                "Degree (Number of Connections)": "49"
             },
             "color": "rgb(43,173,238)",
             "size": 65.90908813476562
@@ -1111,7 +1111,7 @@
             "id": "104",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "2"
+                "Degree (Number of Connections)": "2"
             },
             "color": "rgb(247,133,255)",
             "size": 25.852272033691406
@@ -1123,7 +1123,7 @@
             "id": "78",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "10"
+                "Degree (Number of Connections)": "10"
             },
             "color": "rgb(143,187,48)",
             "size": 32.67045593261719
@@ -1135,7 +1135,7 @@
             "id": "88",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "3"
+                "Degree (Number of Connections)": "3"
             },
             "color": "rgb(148,5,5)",
             "size": 26.704545974731445
@@ -1147,7 +1147,7 @@
             "id": "23",
             "attributes": {
                 "Spice Group": "6",
-                "Degree": "75"
+                "Degree (Number of Connections)": "75"
             },
             "color": "rgb(247,133,255)",
             "size": 88.06817626953125
@@ -1159,7 +1159,7 @@
             "id": "54",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "19"
+                "Degree (Number of Connections)": "19"
             },
             "color": "rgb(242,166,2)",
             "size": 40.34090805053711
@@ -1171,7 +1171,7 @@
             "id": "28",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "14"
+                "Degree (Number of Connections)": "14"
             },
             "color": "rgb(148,5,5)",
             "size": 36.07954406738281
@@ -1183,7 +1183,7 @@
             "id": "41",
             "attributes": {
                 "Spice Group": "3",
-                "Degree": "21"
+                "Degree (Number of Connections)": "21"
             },
             "color": "rgb(43,173,238)",
             "size": 42.04545593261719
@@ -1195,7 +1195,7 @@
             "id": "89",
             "attributes": {
                 "Spice Group": "1",
-                "Degree": "8"
+                "Degree (Number of Connections)": "8"
             },
             "color": "rgb(148,5,5)",
             "size": 30.96590805053711
@@ -1207,7 +1207,7 @@
             "id": "18",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "46"
+                "Degree (Number of Connections)": "46"
             },
             "color": "rgb(234,52,149)",
             "size": 63.352272033691406
@@ -1219,7 +1219,7 @@
             "id": "67",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "27"
+                "Degree (Number of Connections)": "27"
             },
             "color": "rgb(143,187,48)",
             "size": 47.159088134765625
@@ -1231,7 +1231,7 @@
             "id": "97",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "10"
+                "Degree (Number of Connections)": "10"
             },
             "color": "rgb(143,187,48)",
             "size": 32.67045593261719
@@ -1243,7 +1243,7 @@
             "id": "10",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "57"
+                "Degree (Number of Connections)": "57"
             },
             "color": "rgb(234,52,149)",
             "size": 72.7272720336914
@@ -1255,7 +1255,7 @@
             "id": "71",
             "attributes": {
                 "Spice Group": "2",
-                "Degree": "42"
+                "Degree (Number of Connections)": "42"
             },
             "color": "rgb(143,187,48)",
             "size": 59.94318389892578
@@ -1267,7 +1267,7 @@
             "id": "34",
             "attributes": {
                 "Spice Group": "4",
-                "Degree": "18"
+                "Degree (Number of Connections)": "18"
             },
             "color": "rgb(242,166,2)",
             "size": 39.4886360168457
@@ -1279,7 +1279,7 @@
             "id": "29",
             "attributes": {
                 "Spice Group": "5",
-                "Degree": "26"
+                "Degree (Number of Connections)": "26"
             },
             "color": "rgb(234,52,149)",
             "size": 46.30681610107422
