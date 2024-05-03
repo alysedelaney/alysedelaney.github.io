@@ -10,7 +10,7 @@
   "text": {
     "more": "",
     "intro": "A visualization of co-occurence of spices in recipes featured on Allrecipes.com.",
-    "title": "Visualizing Spice Networks"
+    "title": "Spice Relationships"
   },
   "legend": {
     "edgeLabel": "Recipe",

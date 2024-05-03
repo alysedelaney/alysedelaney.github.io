@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #eee;
+	background-color: #ffffff;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -68,6 +68,9 @@ canvas#sigma_bg_1 {
 	border-left: 1px solid #ccc;
 	padding: 0px 18px 0px 18px;	
 	z-index: 1;
+	font-family: "Playfair Display", serif;
+	font-optical-sizing: auto;
+  	font-style: normal;
 }
 
 
@@ -136,7 +139,7 @@ float: left;
 }
 
 #attributepane .name {
-font-size: 14px;
+font-size: 24px;
 cursor: default;
 padding-bottom: 10px;
 padding-top: 18px;
@@ -374,8 +377,8 @@ color: #fff;
 }
 
 #attributeselect .list a:hover {
-background-color: #fff;
-color: #000;
+background-color: #d40505;
+color: #ffffff;
 }
 
 .link h2 {
@@ -389,6 +392,9 @@ padding-top: 1em;
 
 #mainpanel h2 {
 	font-size:14px;
+	font-family: "Playfair Display", serif;
+	font-optical-sizing: auto;
+  	font-style: normal;
 }
 
 #mainpanel dt {
@@ -397,9 +403,6 @@ height: 20px;
 float: left;
 background-repeat: no-repeat;
 background-image: url('../images/sprite.png');
-}
-
-#legend dl {
 }
 
 #mainpanel h2 {
@@ -480,14 +483,11 @@ display: none;
 }
 
 #zoom .z {
-	background:#fff;
-	background-color:rgba(255,255,255,0.7);
 	width: 60px;
 	height: 60px;
 	cursor: pointer;
-	border:1px solid #ccc;
 	float:left;
-	margin-right:4px;
+	margin-right:10px;
 	background-repeat:no-repeat;
 }
 
