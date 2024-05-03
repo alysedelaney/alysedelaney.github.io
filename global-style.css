@@ -8,13 +8,23 @@ h1 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 700;
     text-align: center; 
-    font-size: 5em;
+    font-size: 4em; /* Adjust the value as needed */
     text-transform: uppercase;
     margin: 0 auto; /* This centers the element horizontally */
+    margin-bottom: 100px;
+    letter-spacing: 18px;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 45px; /* Set a minimum font size for smaller screens */
+    }
 }
 
 h2 {
     text-align: center;
+    font-family: "Cardo", serif;
+    font-size: 1.1em;
 }
 
 .body-content {
@@ -22,19 +32,18 @@ h2 {
     padding-top: 100px;
     margin: 0 auto;
   } 
-  
+
  a {
     display: inline-block;
     padding: 15px;
     margin-left: 20px;
-    border: 1.5px solid transparent;
+    border: 1px solid black;
     text-decoration: none;
     color: black;
   }
   
 a:hover {
     background-color: black;
-    border-radius: 13px;
     color: white; 
     text-decoration: none;
   }
