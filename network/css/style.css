@@ -139,7 +139,7 @@ float: left;
 font-size: 14px;
 cursor: default;
 padding-bottom: 20px;
-padding-top: 5px;
+padding-top: 15px;
 font-weight:bold;
 }
 
@@ -165,6 +165,10 @@ padding: 0 0 0 4px;
 padding-top: 2px;
 cursor:pointer;
 }
+
+#attributepane .link li:hover {
+	color:rgb(255, 0, 0);
+	}
 
 #attributepane .p {
 padding-top: 25px;
