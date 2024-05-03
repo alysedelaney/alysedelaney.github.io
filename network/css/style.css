@@ -138,8 +138,8 @@ float: left;
 #attributepane .name {
 font-size: 14px;
 cursor: default;
-padding-bottom: 10px;
-padding-top: 18px;
+padding-bottom: 20px;
+padding-top: 5px;
 font-weight:bold;
 }
 
@@ -167,7 +167,7 @@ cursor:pointer;
 }
 
 #attributepane .p {
-padding-top: 10px;
+padding-top: 25px;
 font-weight: bold;
 font-size:14px;
 }
@@ -573,11 +573,11 @@ display: none;
 h1 {
 	font-size: 3em;
 	line-height: 1em;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Josefin Sans", sans-serif !important;
 }
 
 .nodeattributes .name {
 	font-family: "Eczar", serif;
-	font-size: 2em !important;
+	font-size: 3em !important;
 	text-transform: capitalize;
 }
