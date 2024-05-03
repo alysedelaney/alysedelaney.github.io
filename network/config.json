@@ -3,7 +3,7 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "https://github.com/oxfordinternetinstitute/gephi-plugins/tree/JSONExporter/sigmaExporter",
+    "file": "",
     "link": "https://github.com/oxfordinternetinstitute/gephi-plugins/tree/JSONExporter/sigmaExporter",
     "text": "https://github.com/oxfordinternetinstitute/gephi-plugins/tree/JSONExporter/sigmaExporter"
   },
