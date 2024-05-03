@@ -573,9 +573,11 @@ display: none;
 h1 {
 	font-size: 3em;
 	line-height: 1em;
+	font-family: "Josefin Sans", sans-serif;
 }
 
 .nodeattributes .name {
 	font-family: "Eczar", serif;
-	font-size: 2em;
+	font-size: 2em !important;
+	text-transform: capitalize;
 }
