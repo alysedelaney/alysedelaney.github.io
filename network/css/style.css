@@ -367,12 +367,13 @@ background-position: 200px -8px;
 display:block;
 padding: 2px;
 text-decoration: none;
-color: #fff;
+color: #000000;
 }
 
 #attributeselect .list a:hover {
 background-color: #fff;
 color: #000;
+text-decoration: underline;
 }
 
 .link h2 {
