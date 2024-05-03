@@ -574,3 +574,8 @@ h1 {
 	font-size: 3em;
 	line-height: 1em;
 }
+
+.nodeattributes .name {
+	font-family: "Eczar", serif;
+	font-size: 2em;
+}
