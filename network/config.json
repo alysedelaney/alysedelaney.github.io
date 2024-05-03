@@ -3,9 +3,9 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "",
+    "file": "network/images/rainbow.png",
     "link": "",
-    "text": ""
+    "text": "Main Title"
   },
   "text": {
     "more": "",
