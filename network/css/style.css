@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #eee;
+	background-color: #ffffff;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -239,6 +239,7 @@ border:1px solid #ccc;
 z-index:20;
 position:fixed;
 top:0;
+font-family: "Eczar", serif;
 }
 
 #mainpanel .b1 {
@@ -480,12 +481,9 @@ display: none;
 }
 
 #zoom .z {
-	background:#fff;
-	background-color:rgba(255,255,255,0.7);
-	width: 60px;
-	height: 60px;
+	width: 30px;
+	height: 30px;
 	cursor: pointer;
-	border:1px solid #ccc;
 	float:left;
 	margin-right:4px;
 	background-repeat:no-repeat;
