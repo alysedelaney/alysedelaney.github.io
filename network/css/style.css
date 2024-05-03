@@ -347,8 +347,7 @@ background-position: 200px -8px;
 
 #attributeselect .list {
 	display: none;
-	border: 1px solid 
-	#999;
+	border: 1px solid #000000;
 	padding: 6px;
 	height: 150px;
 	width: 226px;
@@ -361,7 +360,7 @@ background-position: 200px -8px;
 	position:absolute;
 	margin-left: 240px;
 	margin-top:-164px;
-	color: white;
+	color: rgb(0, 0, 0);
 }	
 
 #attributeselect .list a {
