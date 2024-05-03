@@ -61,18 +61,20 @@ canvas#sigma_bg_1 {
     top:0;
     right:0;
 	width: 240px;
-	background-color: #fff;
+	background-color: #000000;
 	margin: 0;
 	word-wrap: break-word;
 	background-color:rgba(255,255,255,0.8);
 	border-left: 1px solid #ccc;
 	padding: 0px 18px 0px 18px;	
 	z-index: 1;
+	font-family: "Cardo", serif;
 }
 
 
 #attributepane .text {
 	height:100%;
+	color: #fff;
 }
 
 /* #attributepane .headertext {
@@ -485,7 +487,7 @@ display: none;
 	height: 30px;
 	cursor: pointer;
 	float:left;
-	margin-right:4px;
+	margin-right:20px;
 	background-repeat:no-repeat;
 }
 
