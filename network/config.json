@@ -39,6 +39,9 @@
       "hoverFontStyle": "bold",
       "defaultLabelSize": 14
     },
+    "settings": {
+      "drawLabels": false
+    },
     "graphProperties": {
       "maxEdgeSize": 0.5,
       "minEdgeSize": 0.2,
