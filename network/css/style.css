@@ -60,7 +60,7 @@ canvas#sigma_bg_1 {
     bottom:0;
     top:0;
     right:0;
-	width: 240px;
+	width: 300px;
 	background-color: #fff;
 	margin: 0;
 	word-wrap: break-word;
@@ -164,12 +164,16 @@ padding: 0 0 0 4px;
 #attributepane .link li {
 padding-top: 2px;
 cursor:pointer;
-color: #000000;
-text-decoration: none;
-font-family: "Work Sans", sans-serif;
 }
 
-#attributepane .link li:hover {
+#attributepane .link a {
+	color: #000000;
+	text-decoration: none;
+	font-family: "Work Sans", sans-serif;
+}
+
+
+#attributepane .link a:hover {
 text-decoration: underline;
 }
 
@@ -584,6 +588,7 @@ h1 {
 
 .nodeattributes .name {
 	font-family: "Eczar", serif;
-	font-size: 3em !important;
+	font-size: 4em !important;
 	text-transform: capitalize;
+	line-height: 1em;
 }
