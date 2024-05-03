@@ -259,7 +259,7 @@ padding: 0px 0 0 0;
 }
 
 #mainpanel .col {
-width: 240px;
+width: 350px;
 padding: 18px 18px 18px 18px;
 margin: 0;
 
@@ -382,6 +382,7 @@ display:block;
 padding: 2px;
 text-decoration: none;
 color: #000000;
+font-family: "Work Sans", sans-serif;
 }
 
 #attributeselect .list a:hover {
@@ -592,7 +593,7 @@ h1 {
 
 .nodeattributes .name {
 	font-family: "Eczar", serif;
-	font-size: 2em !important;
+	font-size: 3.2em !important;
 	text-transform: capitalize;
 	font-weight: 400;
 	line-height: 1em;
